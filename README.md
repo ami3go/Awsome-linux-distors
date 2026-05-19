@@ -1,8 +1,8 @@
 debian Based: 
 
 
-https://vinarios.me/
-https://www.debian.org/
+* https://vinarios.me/
+* https://www.debian.org/
 
 
 Red Hat
