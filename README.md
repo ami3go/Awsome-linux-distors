@@ -12,3 +12,7 @@ https://universal-blue.org/
 ISO writers 
 
 * https://www.ventoy.net/en/index.html
+
+Mini PC 
+* https://cockpit-project.org/
+* 
