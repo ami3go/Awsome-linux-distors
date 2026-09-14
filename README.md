@@ -16,3 +16,5 @@ ISO writers
 Mini PC 
 * https://cockpit-project.org/
 * 
+htop and top Alternatives for the Terminal
+* https://terminaltrove.com/categories/top/
