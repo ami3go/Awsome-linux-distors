@@ -18,3 +18,5 @@ Mini PC
 * 
 htop and top Alternatives for the Terminal
 * https://terminaltrove.com/categories/top/
+
+https://awesome-selfhosted.net/tags/file-transfer---web-based-file-managers.html
