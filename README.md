@@ -21,6 +21,10 @@ htop and top Alternatives for the Terminal
 
 https://awesome-selfhosted.net/tags/file-transfer---web-based-file-managers.html
 
+## Cockpit Web Console plugins
+
+See the [researched Cockpit plugin catalog](COCKPIT_PLUGINS.md) — **65 entries** with official and third-party sources, package names where documented, deployment caveats, and Debian recommendations (research updated 2026-10-19).
+
 ## Remote browser / browser-in-browser (headless servers)
 
 Run Firefox or Chromium on a Linux server without a physical monitor and access its graphical interface through a web browser on another PC.
