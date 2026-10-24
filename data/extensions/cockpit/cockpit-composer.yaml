@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-composer"
+name: "Cockpit Composer"
+kind: "extension"
+category: "server-management"
+summary: "Historical osbuild-composer image-building frontend"
+source_repo: "https://github.com/osbuild/cockpit-composer"
+ecosystem: "cockpit"
+group: "historical"
+source_section: "Legacy or historical projects (compatibility unconfirmed)"
+package_name: null
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "historical"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

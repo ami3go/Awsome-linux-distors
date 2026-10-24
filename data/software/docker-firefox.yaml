@@ -1,0 +1,17 @@
+schema_version: 1
+id: "docker-firefox"
+name: "jlesage Docker Firefox"
+kind: "software"
+category: "remote-access"
+summary: "Firefox container exposing a browser-accessible graphical interface."
+source_repo: "https://github.com/jlesage/docker-firefox"
+deployment_model: "container"
+tags:
+  - "browser"
+  - "remote-browser"
+  - "docker"
+verification:
+  checked_on: "2026-10-24"
+  level: "repository-listing"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"

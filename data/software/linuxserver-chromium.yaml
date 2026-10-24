@@ -1,0 +1,17 @@
+schema_version: 1
+id: "linuxserver-chromium"
+name: "LinuxServer Chromium"
+kind: "software"
+category: "remote-access"
+summary: "Containerized Chromium with a browser-accessible graphical interface."
+source_repo: "https://github.com/linuxserver/docker-chromium"
+deployment_model: "container"
+tags:
+  - "browser"
+  - "remote-browser"
+  - "docker"
+verification:
+  checked_on: "2026-10-24"
+  level: "repository-listing"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"

@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-zfs-storage-mietzen"
+name: "ZFS Storage (mietzen)"
+kind: "extension"
+category: "server-management"
+summary: "Alternative OpenZFS storage and SMART management"
+source_repo: "https://github.com/mietzen/cockpit-plugins"
+ecosystem: "cockpit"
+group: "independent-third-party"
+source_section: "Additional independently discovered third-party plugins"
+package_name: "cockpit-zfs-storage"
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "independent-third-party"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

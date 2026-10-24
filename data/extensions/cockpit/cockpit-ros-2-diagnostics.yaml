@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-ros-2-diagnostics"
+name: "ROS 2 Diagnostics"
+kind: "extension"
+category: "server-management"
+summary: "ROS2 diagnostics"
+source_repo: "https://github.com/clearpathrobotics/cockpit-ros2-diagnostics"
+ecosystem: "cockpit"
+group: "cockpit-listed-third-party"
+source_section: "Third-party plugins indexed by Cockpit"
+package_name: "cockpit-ros2-diagnostics"
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "cockpit-listed-third-party"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
