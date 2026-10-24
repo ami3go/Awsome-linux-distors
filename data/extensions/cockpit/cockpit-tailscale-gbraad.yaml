@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-tailscale-gbraad"
+name: "Tailscale (gbraad)"
+kind: "extension"
+category: "server-management"
+summary: "Alternative Tailscale UI"
+source_repo: "https://github.com/gbraad-cockpit/cockpit-tailscale"
+ecosystem: "cockpit"
+group: "independent-third-party"
+source_section: "Additional independently discovered third-party plugins"
+package_name: null
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "independent-third-party"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

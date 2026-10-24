@@ -1,0 +1,18 @@
+schema_version: 1
+id: "universal-blue"
+name: "Universal Blue"
+kind: "os-ecosystem"
+category: "atomic-os"
+summary: "Fedora-based bootc/OCI image-building ecosystem, not a standalone Linux distribution."
+website: "https://universal-blue.org/"
+distribution_family: "fedora"
+tags:
+  - "fedora"
+  - "atomic"
+  - "oci-images"
+  - "bootc"
+verification:
+  checked_on: "2026-10-24"
+  level: "official-documentation"
+  functional_tested: false
+  source: "https://universal-blue.org/"

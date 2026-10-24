@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-389-directory-server"
+name: "389 Directory Server"
+kind: "extension"
+category: "server-management"
+summary: "389 Directory Server LDAP UI; source project linked"
+source_repo: "https://github.com/389ds/389-ds-base"
+ecosystem: "cockpit"
+group: "red-hat"
+source_section: "Red Hat-developed"
+package_name: "cockpit-389-ds"
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "red-hat"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

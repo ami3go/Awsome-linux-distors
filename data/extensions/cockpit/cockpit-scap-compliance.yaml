@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-scap-compliance"
+name: "SCAP Compliance"
+kind: "extension"
+category: "server-management"
+summary: "OpenSCAP scans; RHEL 10 / CentOS Stream 10"
+source_repo: "https://github.com/pbuchan-rh/cockpit-scap"
+ecosystem: "cockpit"
+group: "cockpit-listed-third-party"
+source_section: "Third-party plugins indexed by Cockpit"
+package_name: "cockpit-scap"
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "cockpit-listed-third-party"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

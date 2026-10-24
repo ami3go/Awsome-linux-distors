@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-pcp-metrics"
+name: "PCP Metrics"
+kind: "extension"
+category: "server-management"
+summary: "Performance Co-Pilot time series and metric history"
+source_repo: "https://github.com/cockpit-project/cockpit"
+ecosystem: "cockpit"
+group: "core-module"
+source_section: "Core/distribution modules (not necessarily add-ons)"
+package_name: "cockpit-pcp"
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "core-module"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

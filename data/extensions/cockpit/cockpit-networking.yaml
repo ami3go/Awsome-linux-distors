@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-networking"
+name: "Networking"
+kind: "extension"
+category: "server-management"
+summary: "NetworkManager networks and firewall"
+source_repo: "https://github.com/cockpit-project/cockpit"
+ecosystem: "cockpit"
+group: "first-party"
+source_section: "Cockpit project (first-party)"
+package_name: "cockpit-networkmanager"
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "first-party"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

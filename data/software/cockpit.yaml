@@ -1,0 +1,17 @@
+schema_version: 1
+id: "cockpit"
+name: "Cockpit"
+kind: "software"
+category: "server-management"
+summary: "Linux server administration through a web console."
+website: "https://cockpit-project.org/"
+source_repo: "https://github.com/cockpit-project/cockpit"
+tags:
+  - "headless"
+  - "server"
+  - "web-admin"
+verification:
+  checked_on: "2026-10-24"
+  level: "official-documentation"
+  functional_tested: false
+  source: "https://cockpit-project.org/"

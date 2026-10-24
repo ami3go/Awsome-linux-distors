@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-image-builder"
+name: "Image Builder"
+kind: "extension"
+category: "server-management"
+summary: "Build operating system images"
+source_repo: "https://github.com/osbuild/image-builder-frontend"
+ecosystem: "cockpit"
+group: "red-hat"
+source_section: "Red Hat-developed"
+package_name: "cockpit-image-builder"
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "red-hat"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-older-samba-manager"
+name: "Older Samba Manager"
+kind: "extension"
+category: "server-management"
+summary: "Older Samba manager; README uses outdated Cockpit/Debian examples"
+source_repo: "https://github.com/enira/cockpit-smb-plugin"
+ecosystem: "cockpit"
+group: "historical"
+source_section: "Legacy or historical projects (compatibility unconfirmed)"
+package_name: null
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "historical"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
