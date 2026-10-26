@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-session-recording"
+name: "Session Recording"
+kind: "extension"
+category: "server-management"
+summary: "Session recording and playback"
+source_repo: "https://github.com/Scribery/cockpit-session-recording"
+ecosystem: "cockpit"
+group: "red-hat"
+source_section: "Red Hat-developed"
+package_name: "cockpit-session-recording"
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "red-hat"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

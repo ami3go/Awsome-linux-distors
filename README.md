@@ -1,74 +1,48 @@
-debian Based: 
+# Awesome Linux Catalog
 
+A curated, source-linked catalog of Linux distributions, OS image ecosystems, administration software, AI-agent platforms, remote-access tools, utilities and Cockpit components.
 
-* https://vinarios.me/
-* https://www.debian.org/
-* https://rhinolinux.org/ - best choice for low ram low power code PC 
+> **Evidence policy:** A link is not evidence that software was installed, tested, maintained, secure, or available in Debian repositories. See [verification rules](docs/MAINTENANCE.md).
 
-Red Hat
+## Browse
 
-https://universal-blue.org/
+| Area | Catalog | Guide |
+| --- | --- | --- |
+| Distributions and atomic-image ecosystems | [Distribution/software index](generated/software-index.md) | [Distribution notes](docs/distributions/index.md) |
+| Linux tools and curated resource directories | [Software index](generated/software-index.md) | [Software notes](docs/software/index.md) |
+| AI agents and orchestration | [AI agent entries](generated/software-index.md) | [AI agent guide](docs/software/ai-agents.md) |
+| Cockpit server management | [65-entry Cockpit catalog](generated/cockpit-plugins.md) | [Cockpit guide](docs/server-management/cockpit.md) |
+| Remote browser and desktop tools | [Remote-access entries](generated/software-index.md) | [Remote browser projects and screenshots](docs/remote-access/browser-in-browser.md) |
+| Mini PC and headless deployments | [Software index](generated/software-index.md) | [Mini PC notes](docs/hardware/mini-pc.md) |
 
-ISO writers 
+## The data model
 
-* https://www.ventoy.net/en/index.html
+- **`data/`** contains one YAML record per project, with a stable ID, category, URLs, and evidence.
+- **`schemas/project.schema.json`** defines the allowed fields and categories.
+- **`generated/`** contains reproducible [JSON](generated/catalog.json) and Markdown views.
+- **`scripts/`** validates records and builds generated catalogs.
+- **`COCKPIT_PLUGINS.md`** is retained unchanged as the original 19 October 2026 research snapshot. It is **not** the editable data source for future updates.
 
-Mini PC 
-* https://cockpit-project.org/
-* 
-htop and top Alternatives for the Terminal
-* https://terminaltrove.com/categories/top/
+Cockpit's 65 research entries have individual records in [`data/extensions/cockpit/`](data/extensions/cockpit/). The original 10 Debian recommendations are guidance, **not** ten more independent plugins.
 
-https://awesome-selfhosted.net/tags/file-transfer---web-based-file-managers.html
+## Quick choices
 
-## Cockpit Web Console plugins
+- [Debian](https://www.debian.org/) — general-purpose distribution for desktops and servers.
+- [Rhino Linux](https://rhinolinux.org/) — **Ubuntu-based**, rolling release. Not a direct Debian derivative.
+- [Universal Blue](https://universal-blue.org/) — a **Fedora-based image ecosystem**, not one standalone distro.
+- [Cockpit](https://cockpit-project.org/) — native Linux server web console.
+- [Ventoy](https://www.ventoy.net/en/index.html) — prepare bootable USB media with multiple images.
 
-See the [researched Cockpit plugin catalog](COCKPIT_PLUGINS.md) — **65 entries** with official and third-party sources, package names where documented, deployment caveats, and Debian recommendations (research updated 2026-10-19).
+## Contributing and validation
 
-## Remote browser / browser-in-browser (headless servers)
+Read [CONTRIBUTING.md](CONTRIBUTING.md) and [the schema](schemas/project.schema.json). Install Python dependencies and run:
 
-Run Firefox or Chromium on a Linux server without a physical monitor and access its graphical interface through a web browser on another PC.
+```bash
+python -m pip install -r requirements-dev.txt
+python scripts/validate_catalog.py
+python scripts/build_indexes.py
+python scripts/build_indexes.py --check
+python -m unittest discover -s tests -v
+```
 
-* [Xpra + HTML5 client](https://github.com/Xpra-org/xpra-html5) - forwards individual Linux application windows to a browser; a strong choice when avoiding a full desktop environment.
-* [jlesage/docker-firefox](https://github.com/jlesage/docker-firefox) - Firefox container with built-in browser-based remote GUI; simple single-user setup.
-* [LinuxServer Chromium](https://github.com/linuxserver/docker-chromium) - web-accessible Chromium container using Selkies streaming.
-* [Neko](https://github.com/m1k1o/neko) - self-hosted virtual browser in Docker using WebRTC; supports interactive/shared sessions.
-* [KasmVNC](https://github.com/kasmtech/KasmVNC) - browser-based remote access to Linux desktops or applications; a building block rather than a packaged browser.
-
-### Screenshots of remote-browser projects
-
-These are upstream or community-published interface screenshots. The LinuxServer Chromium preview illustrates its **Selkies streaming backend**, not a verified Chromium-container session. Interface details can vary by release.
-
-#### Xpra — HTML5 application forwarding
-
-<img src="https://raw.githubusercontent.com/Xpra-org/xpra-html5/master/docs/xterm-in-chrome.png" alt="Xpra HTML5 client showing remote Linux applications in a web browser" width="600">
-
-<sub>Source: [Xpra HTML5 documentation](https://github.com/Xpra-org/xpra-html5#sample-screenshot).</sub>
-
-#### jlesage/docker-firefox — Firefox in a browser
-
-<img src="https://sunnyhmz.top/upload/docker-firefox-deployment.png?width=1200" alt="Docker Firefox remote web interface with Firefox and its control panel" width="600">
-
-<sub>Community screenshot: [Docker Firefox deployment example](https://sunnyhmz.top/archives/docker-firefox-deployment).</sub>
-
-#### LinuxServer Chromium — Selkies streaming interface (illustrative)
-
-<img src="https://raw.githubusercontent.com/selkies-project/selkies/main/docs/assets/screenshot.jpg" alt="Selkies web-streaming interface; representative of the technology used by LinuxServer Chromium, not an exact Chromium-container screenshot" width="600">
-
-<sub>Source: [Selkies](https://github.com/selkies-project/selkies) — streaming backend used by LinuxServer's Chromium container.</sub>
-
-#### Neko — shared WebRTC browser
-
-<img src="https://neko.m1k1o.net/img/intro.gif" alt="Neko upstream demo showing an interactive shared browser session" width="600">
-
-<sub>Source: [Neko project README](https://github.com/m1k1o/neko).</sub>
-
-#### KasmVNC — remote desktop in a browser
-
-<img src="https://5856039.fs1.hubspotusercontent-na1.net/hubfs/5856039/KasmVNC_Screenshot_Features.png" alt="KasmVNC client showing Linux desktop and remote-control settings" width="600">
-
-<sub>Source: [KasmVNC](https://github.com/kasmtech/KasmVNC) project screenshot, also referenced by [KasmVNC web front-end documentation](https://github.com/VirtOS-org/KasmVNC).</sub>
-
-**Quick choice:** jlesage/docker-firefox for easy deployment; Xpra for application-only remote access; Neko for WebRTC streaming and shared access. These are architectural recommendations, not measured resource benchmarks. Browser tabs and web pages can consume substantially more resources than the streaming layer.
-
-**Security:** Restrict access to a private LAN/VPN or a properly authenticated HTTPS reverse proxy. Avoid publishing an unauthenticated remote browser endpoint to the internet.
+GitHub Actions performs the validation and regression checks for pull requests. The catalogs are discovery resources, not an endorsement or guarantee of package availability.

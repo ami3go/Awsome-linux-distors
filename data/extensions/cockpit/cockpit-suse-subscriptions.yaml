@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-suse-subscriptions"
+name: "SUSE Subscriptions"
+kind: "extension"
+category: "server-management"
+summary: "SUSE subscriptions"
+source_repo: "https://github.com/openSUSE/cockpit-subscriptions"
+ecosystem: "cockpit"
+group: "suse"
+source_section: "SUSE/openSUSE-developed"
+package_name: "cockpit-subscriptions"
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "suse"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

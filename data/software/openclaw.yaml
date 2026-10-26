@@ -1,0 +1,18 @@
+schema_version: 1
+id: "openclaw"
+name: "OpenClaw"
+kind: "software"
+category: "ai-agents"
+summary: "Open-source personal AI assistant that connects messaging, applications and tools to automate tasks."
+website: "https://openclaw.ai"
+source_repo: "https://github.com/openclaw/openclaw"
+tags:
+  - "ai-agent"
+  - "personal-assistant"
+  - "automation"
+  - "self-hosted"
+verification:
+  checked_on: "2026-10-26"
+  level: "official-documentation"
+  functional_tested: false
+  source: "https://github.com/openclaw/openclaw"

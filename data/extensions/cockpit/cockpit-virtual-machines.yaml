@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-virtual-machines"
+name: "Virtual Machines"
+kind: "extension"
+category: "server-management"
+summary: "KVM/libvirt virtual machine management"
+source_repo: "https://github.com/cockpit-project/cockpit-machines"
+ecosystem: "cockpit"
+group: "first-party"
+source_section: "Cockpit project (first-party)"
+package_name: "cockpit-machines"
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "first-party"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

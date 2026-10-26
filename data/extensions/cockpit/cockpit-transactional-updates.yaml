@@ -1,0 +1,20 @@
+schema_version: 1
+id: "cockpit-transactional-updates"
+name: "Transactional Updates"
+kind: "extension"
+category: "server-management"
+summary: "SUSE transactional OS updates"
+source_repo: "https://github.com/openSUSE/cockpit-tukit"
+ecosystem: "cockpit"
+group: "suse"
+source_section: "SUSE/openSUSE-developed"
+package_name: "cockpit-tukit"
+package_availability: "unverified"
+tags:
+  - "cockpit"
+  - "suse"
+verification:
+  checked_on: "2026-10-19"
+  level: "research-snapshot"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"

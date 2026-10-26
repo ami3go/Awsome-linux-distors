@@ -1,0 +1,18 @@
+schema_version: 1
+id: "agent-zero"
+name: "Agent Zero"
+kind: "software"
+category: "ai-agents"
+summary: "Autonomous general-purpose AI framework supporting tool creation, computer use and multi-agent task execution."
+website: "https://agent-zero.ai"
+source_repo: "https://github.com/agent0ai/agent-zero"
+tags:
+  - "ai-agent"
+  - "framework"
+  - "computer-use"
+  - "self-hosted"
+verification:
+  checked_on: "2026-10-26"
+  level: "official-documentation"
+  functional_tested: false
+  source: "https://github.com/agent0ai/agent-zero"

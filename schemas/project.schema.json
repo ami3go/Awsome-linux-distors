@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ami3go/Awsome-linux-distors/blob/main/schemas/project.schema.json",
+  "title": "Awesome Linux catalog record",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "kind",
+    "category",
+    "summary",
+    "verification"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "kind": {
+      "enum": [
+        "distribution",
+        "os-ecosystem",
+        "software",
+        "resource",
+        "extension"
+      ]
+    },
+    "category": {
+      "enum": [
+        "server-linux",
+        "desktop-linux",
+        "atomic-os",
+        "boot-media",
+        "server-management",
+        "remote-access",
+        "monitoring",
+        "file-management",
+        "ai-agents"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 8
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_repo": {
+      "type": "string",
+      "format": "uri"
+    },
+    "ecosystem": {
+      "type": "string"
+    },
+    "group": {
+      "enum": [
+        "first-party",
+        "red-hat",
+        "suse",
+        "cockpit-listed-third-party",
+        "independent-third-party",
+        "historical",
+        "core-module"
+      ]
+    },
+    "source_section": {
+      "type": "string"
+    },
+    "package_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "package_availability": {
+      "enum": [
+        "unverified",
+        "confirmed"
+      ]
+    },
+    "distribution_family": {
+      "type": "string"
+    },
+    "based_on": {
+      "type": "string"
+    },
+    "release_model": {
+      "type": "string"
+    },
+    "desktop": {
+      "type": "string"
+    },
+    "deployment_model": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "checked_on",
+        "level",
+        "functional_tested",
+        "source"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "checked_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "level": {
+          "enum": [
+            "research-snapshot",
+            "repository-listing",
+            "official-documentation"
+          ]
+        },
+        "functional_tested": {
+          "type": "boolean"
+        },
+        "source": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  },
+  "anyOf": [
+    {
+      "required": [
+        "website"
+      ]
+    },
+    {
+      "required": [
+        "source_repo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1943 @@
+[
+  {
+    "category": "ai-agents",
+    "id": "agent-zero",
+    "kind": "software",
+    "name": "Agent Zero",
+    "schema_version": 1,
+    "source_repo": "https://github.com/agent0ai/agent-zero",
+    "summary": "Autonomous general-purpose AI framework supporting tool creation, computer use and multi-agent task execution.",
+    "tags": [
+      "ai-agent",
+      "framework",
+      "computer-use",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/agent0ai/agent-zero"
+    },
+    "website": "https://agent-zero.ai"
+  },
+  {
+    "category": "file-management",
+    "id": "awesome-selfhosted-file-managers",
+    "kind": "resource",
+    "name": "Awesome Selfhosted — web file managers",
+    "schema_version": 1,
+    "summary": "Directory of browser-based, self-hosted file management projects.",
+    "tags": [
+      "selfhosted",
+      "file-manager",
+      "directory"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "repository-listing",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"
+    },
+    "website": "https://awesome-selfhosted.net/tags/file-transfer---web-based-file-managers.html"
+  },
+  {
+    "category": "ai-agents",
+    "id": "buzz",
+    "kind": "software",
+    "name": "Buzz",
+    "schema_version": 1,
+    "source_repo": "https://github.com/block/buzz",
+    "summary": "Open-source team workspace for humans and AI agents to collaborate through conversations and workflows.",
+    "tags": [
+      "ai-agent",
+      "collaboration",
+      "workspace",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/block/buzz"
+    }
+  },
+  {
+    "category": "server-management",
+    "id": "cockpit",
+    "kind": "software",
+    "name": "Cockpit",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit",
+    "summary": "Linux server administration through a web console.",
+    "tags": [
+      "headless",
+      "server",
+      "web-admin"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://cockpit-project.org/"
+    },
+    "website": "https://cockpit-project.org/"
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "red-hat",
+    "id": "cockpit-389-directory-server",
+    "kind": "extension",
+    "name": "389 Directory Server",
+    "package_availability": "unverified",
+    "package_name": "cockpit-389-ds",
+    "schema_version": 1,
+    "source_repo": "https://github.com/389ds/389-ds-base",
+    "source_section": "Red Hat-developed",
+    "summary": "389 Directory Server LDAP UI; source project linked",
+    "tags": [
+      "cockpit",
+      "red-hat"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-backblaze-b2-backup",
+    "kind": "extension",
+    "name": "Backblaze B2 Backup",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/rabol/backblaze-b2",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Backblaze B2 backup UI",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-benchmark",
+    "kind": "extension",
+    "name": "Benchmark",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/45Drives/cockpit-benchmark",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Storage benchmarking",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-bind-dns",
+    "kind": "extension",
+    "name": "BIND DNS",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/josephoaks/Cockpit-DNS_Bind",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "BIND DNS management",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "suse",
+    "id": "cockpit-bootloader",
+    "kind": "extension",
+    "name": "Bootloader",
+    "package_availability": "unverified",
+    "package_name": "cockpit-bootloader",
+    "schema_version": 1,
+    "source_repo": "https://github.com/openSUSE/cockpit-bootloader",
+    "source_section": "SUSE/openSUSE-developed",
+    "summary": "Bootloader configuration; pre-release",
+    "tags": [
+      "cockpit",
+      "suse"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-caddy",
+    "kind": "extension",
+    "name": "Caddy",
+    "package_availability": "unverified",
+    "package_name": "cockpit-caddy",
+    "schema_version": 1,
+    "source_repo": "https://github.com/RXTX4816/cockpit-caddy",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "Caddy reverse proxy; supports Debian .deb; requires Cockpit 300+",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-cloudflare-tunnels",
+    "kind": "extension",
+    "name": "Cloudflare tunnels",
+    "package_availability": "unverified",
+    "package_name": "cockpit-cloudflared",
+    "schema_version": 1,
+    "source_repo": "https://github.com/spotsnel/cockpit-cloudflared",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Cloudflared status; pre-release",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "historical",
+    "id": "cockpit-composer",
+    "kind": "extension",
+    "name": "Cockpit Composer",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/osbuild/cockpit-composer",
+    "source_section": "Legacy or historical projects (compatibility unconfirmed)",
+    "summary": "Historical osbuild-composer image-building frontend",
+    "tags": [
+      "cockpit",
+      "historical"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-container-manager-mietzen",
+    "kind": "extension",
+    "name": "Container Manager (mietzen)",
+    "package_availability": "unverified",
+    "package_name": "cockpit-container-manager",
+    "schema_version": 1,
+    "source_repo": "https://github.com/mietzen/cockpit-plugins",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "Docker/Podman/Compose and volumes/networks",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "first-party",
+    "id": "cockpit-diagnostic-reports",
+    "kind": "extension",
+    "name": "Diagnostic Reports",
+    "package_availability": "unverified",
+    "package_name": "cockpit-sosreport",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit",
+    "source_section": "Cockpit project (first-party)",
+    "summary": "System diagnostic collection",
+    "tags": [
+      "cockpit",
+      "first-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-docker-compose",
+    "kind": "extension",
+    "name": "Docker Compose",
+    "package_availability": "unverified",
+    "package_name": "cockpit-compose",
+    "schema_version": 1,
+    "source_repo": "https://github.com/RXTX4816/cockpit-compose",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Docker/Podman Compose; indexed pre-release",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-docker-manager",
+    "kind": "extension",
+    "name": "Docker Manager",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/chrisjbawden/cockpit-dockermanager",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Docker management; pre-release",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-download-superstation",
+    "kind": "extension",
+    "name": "Download Superstation",
+    "package_availability": "unverified",
+    "package_name": "cockpit-download-superstation",
+    "schema_version": 1,
+    "source_repo": "https://github.com/dl-romero/cockpit-download-superstation",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "libtorrent downloader",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-explorer",
+    "kind": "extension",
+    "name": "Explorer",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/ismetozalp/explorer",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "File manager, editors, AI CLI and system tools",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-file-sharing",
+    "kind": "extension",
+    "name": "File Sharing",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/45Drives/cockpit-file-sharing",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "SMB/NFS and storage sharing",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-file-sharing-mietzen",
+    "kind": "extension",
+    "name": "File Sharing (mietzen)",
+    "package_availability": "unverified",
+    "package_name": "cockpit-file-sharing",
+    "schema_version": 1,
+    "source_repo": "https://github.com/mietzen/cockpit-plugins",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "Alternative SMB/NFS sharing; package name overlaps 45Drives",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "first-party",
+    "id": "cockpit-files",
+    "kind": "extension",
+    "name": "Cockpit Files",
+    "package_availability": "unverified",
+    "package_name": "cockpit-files",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit-files",
+    "source_section": "Cockpit project (first-party)",
+    "summary": "Integrated file manager",
+    "tags": [
+      "cockpit",
+      "first-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-hangar",
+    "kind": "extension",
+    "name": "Hangar",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/ismetozalp/hangar",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "restic backups, scheduling and restore",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-headscale",
+    "kind": "extension",
+    "name": "Headscale",
+    "package_availability": "unverified",
+    "package_name": "cockpit-headscale",
+    "schema_version": 1,
+    "source_repo": "https://github.com/spotsnel/cockpit-headscale",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Headscale server; pre-release",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "red-hat",
+    "id": "cockpit-high-availability-cluster",
+    "kind": "extension",
+    "name": "High Availability Cluster",
+    "package_availability": "unverified",
+    "package_name": "cockpit-ha-cluster",
+    "schema_version": 1,
+    "source_repo": "https://github.com/ClusterLabs/pcs-web-ui",
+    "source_section": "Red Hat-developed",
+    "summary": "Pacemaker/PCS cluster management",
+    "tags": [
+      "cockpit",
+      "red-hat"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "red-hat",
+    "id": "cockpit-image-builder",
+    "kind": "extension",
+    "name": "Image Builder",
+    "package_availability": "unverified",
+    "package_name": "cockpit-image-builder",
+    "schema_version": 1,
+    "source_repo": "https://github.com/osbuild/image-builder-frontend",
+    "source_section": "Red Hat-developed",
+    "summary": "Build operating system images",
+    "tags": [
+      "cockpit",
+      "red-hat"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-inflight-tv",
+    "kind": "extension",
+    "name": "InFlight TV",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/ismetozalp/iftv",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "IPTV with optional ffmpeg streaming",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "first-party",
+    "id": "cockpit-kernel-dump",
+    "kind": "extension",
+    "name": "Kernel Dump",
+    "package_availability": "unverified",
+    "package_name": "cockpit-kdump",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit",
+    "source_section": "Cockpit project (first-party)",
+    "summary": "Kdump configuration",
+    "tags": [
+      "cockpit",
+      "first-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-manifest",
+    "kind": "extension",
+    "name": "Manifest",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/ismetozalp/manifest",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "aria2 downloads including torrents",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-microshift",
+    "kind": "extension",
+    "name": "MicroShift",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/lucamaf/cockpit-microshift-plugin",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "MicroShift node and resource overview",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-navigator",
+    "kind": "extension",
+    "name": "Navigator",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/45Drives/cockpit-navigator",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "File manager",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "first-party",
+    "id": "cockpit-networking",
+    "kind": "extension",
+    "name": "Networking",
+    "package_availability": "unverified",
+    "package_name": "cockpit-networkmanager",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit",
+    "source_section": "Cockpit project (first-party)",
+    "summary": "NetworkManager networks and firewall",
+    "tags": [
+      "cockpit",
+      "first-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "historical",
+    "id": "cockpit-older-samba-manager",
+    "kind": "extension",
+    "name": "Older Samba Manager",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/enira/cockpit-smb-plugin",
+    "source_section": "Legacy or historical projects (compatibility unconfirmed)",
+    "summary": "Older Samba manager; README uses outdated Cockpit/Debian examples",
+    "tags": [
+      "cockpit",
+      "historical"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "historical",
+    "id": "cockpit-original-zfs-manager",
+    "kind": "extension",
+    "name": "Original ZFS Manager",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/optimans/cockpit-zfs-manager",
+    "source_section": "Legacy or historical projects (compatibility unconfirmed)",
+    "summary": "Historical ZFS manager; compare newer alternatives",
+    "tags": [
+      "cockpit",
+      "historical"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "first-party",
+    "id": "cockpit-ostree-updates",
+    "kind": "extension",
+    "name": "OSTree Updates",
+    "package_availability": "unverified",
+    "package_name": "cockpit-ostree",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit-ostree",
+    "source_section": "Cockpit project (first-party)",
+    "summary": "OSTree/immutable OS updates",
+    "tags": [
+      "cockpit",
+      "first-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-package-manager",
+    "kind": "extension",
+    "name": "Package Manager",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/hatlabs/cockpit-package-manager",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "PackageKit package browser",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "suse",
+    "id": "cockpit-packages",
+    "kind": "extension",
+    "name": "Packages",
+    "package_availability": "unverified",
+    "package_name": "cockpit-packages",
+    "schema_version": 1,
+    "source_repo": "https://github.com/openSUSE/cockpit-packages",
+    "source_section": "SUSE/openSUSE-developed",
+    "summary": "Package install/remove",
+    "tags": [
+      "cockpit",
+      "suse"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-pacman",
+    "kind": "extension",
+    "name": "Pacman",
+    "package_availability": "unverified",
+    "package_name": "cockpit-pacman",
+    "schema_version": 1,
+    "source_repo": "https://github.com/pfeifferj/cockpit-pacman",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Arch Linux package management",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "core-module",
+    "id": "cockpit-pcp-metrics",
+    "kind": "extension",
+    "name": "PCP Metrics",
+    "package_availability": "unverified",
+    "package_name": "cockpit-pcp",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit",
+    "source_section": "Core/distribution modules (not necessarily add-ons)",
+    "summary": "Performance Co-Pilot time series and metric history",
+    "tags": [
+      "cockpit",
+      "core-module"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-pilot",
+    "kind": "extension",
+    "name": "Pilot",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/ismetozalp/pilot",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Self-hosted RustDesk provisioning and control",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-plakar-backup",
+    "kind": "extension",
+    "name": "Plakar Backup",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/RiddermanR/cockpit-plakar",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "Plakar stores, snapshots and scheduled backups",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "first-party",
+    "id": "cockpit-podman-containers",
+    "kind": "extension",
+    "name": "Podman Containers",
+    "package_availability": "unverified",
+    "package_name": "cockpit-podman",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit-podman",
+    "source_section": "Cockpit project (first-party)",
+    "summary": "Podman container management; not Docker",
+    "tags": [
+      "cockpit",
+      "first-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-port-forward-manager",
+    "kind": "extension",
+    "name": "Port Forward Manager",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/kuznetz/cockpit-port-forward",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Firewalld port forwarding and masquerading",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "suse",
+    "id": "cockpit-repositories",
+    "kind": "extension",
+    "name": "Repositories",
+    "package_availability": "unverified",
+    "package_name": "cockpit-repos",
+    "schema_version": 1,
+    "source_repo": "https://github.com/openSUSE/cockpit-repos",
+    "source_section": "SUSE/openSUSE-developed",
+    "summary": "SUSE package repositories",
+    "tags": [
+      "cockpit",
+      "suse"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "red-hat",
+    "id": "cockpit-rhel-subscription-manager",
+    "kind": "extension",
+    "name": "RHEL Subscription Manager",
+    "package_availability": "unverified",
+    "package_name": "subscription-manager-cockpit",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/subscription-manager-cockpit",
+    "source_section": "Red Hat-developed",
+    "summary": "RHEL subscriptions; RHEL-specific",
+    "tags": [
+      "cockpit",
+      "red-hat"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-ros-2-diagnostics",
+    "kind": "extension",
+    "name": "ROS 2 Diagnostics",
+    "package_availability": "unverified",
+    "package_name": "cockpit-ros2-diagnostics",
+    "schema_version": 1,
+    "source_repo": "https://github.com/clearpathrobotics/cockpit-ros2-diagnostics",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "ROS2 diagnostics",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-router-management",
+    "kind": "extension",
+    "name": "Router Management",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/LedoKun/cockpit-router",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "DNSMasq, WireGuard, NUT, Fail2Ban, QoS and AP controls",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-scap-compliance",
+    "kind": "extension",
+    "name": "SCAP Compliance",
+    "package_availability": "unverified",
+    "package_name": "cockpit-scap",
+    "schema_version": 1,
+    "source_repo": "https://github.com/pbuchan-rh/cockpit-scap",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "OpenSCAP scans; RHEL 10 / CentOS Stream 10",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-security",
+    "kind": "extension",
+    "name": "Cockpit Security",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/Bia951/cockpit-security",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "UFW, iptables, nftables, firewalld and Fail2Ban",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "first-party",
+    "id": "cockpit-selinux",
+    "kind": "extension",
+    "name": "SELinux",
+    "package_availability": "unverified",
+    "package_name": "cockpit-selinux",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit",
+    "source_section": "Cockpit project (first-party)",
+    "summary": "SELinux exceptions and audit reports",
+    "tags": [
+      "cockpit",
+      "first-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-sensors",
+    "kind": "extension",
+    "name": "Sensors",
+    "package_availability": "unverified",
+    "package_name": "cockpit-sensors",
+    "schema_version": 1,
+    "source_repo": "https://github.com/ocristopfer/cockpit-sensors",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "lm-sensors hardware readings",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "red-hat",
+    "id": "cockpit-session-recording",
+    "kind": "extension",
+    "name": "Session Recording",
+    "package_availability": "unverified",
+    "package_name": "cockpit-session-recording",
+    "schema_version": 1,
+    "source_repo": "https://github.com/Scribery/cockpit-session-recording",
+    "source_section": "Red Hat-developed",
+    "summary": "Session recording and playback",
+    "tags": [
+      "cockpit",
+      "red-hat"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-snapraid",
+    "kind": "extension",
+    "name": "SnapRAID",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/sloraris/cockpit-snapraid",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "SnapRAID monitoring; explicitly beta",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "first-party",
+    "id": "cockpit-software-updates",
+    "kind": "extension",
+    "name": "Software Updates",
+    "package_availability": "unverified",
+    "package_name": "cockpit-packagekit",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit",
+    "source_section": "Cockpit project (first-party)",
+    "summary": "PackageKit-based updates",
+    "tags": [
+      "cockpit",
+      "first-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "first-party",
+    "id": "cockpit-storage",
+    "kind": "extension",
+    "name": "Storage",
+    "package_availability": "unverified",
+    "package_name": "cockpit-storaged",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit",
+    "source_section": "Cockpit project (first-party)",
+    "summary": "Partitions, LUKS, RAID, NFS, iSCSI",
+    "tags": [
+      "cockpit",
+      "first-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-sudo-manager",
+    "kind": "extension",
+    "name": "Sudo Manager",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/josephoaks/Cockpit-SUDO-Manager",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Sudo policies; SUSE-oriented",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "suse",
+    "id": "cockpit-suse-subscriptions",
+    "kind": "extension",
+    "name": "SUSE Subscriptions",
+    "package_availability": "unverified",
+    "package_name": "cockpit-subscriptions",
+    "schema_version": 1,
+    "source_repo": "https://github.com/openSUSE/cockpit-subscriptions",
+    "source_section": "SUSE/openSUSE-developed",
+    "summary": "SUSE subscriptions",
+    "tags": [
+      "cockpit",
+      "suse"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "core-module",
+    "id": "cockpit-system-overview",
+    "kind": "extension",
+    "name": "System Overview",
+    "package_availability": "unverified",
+    "package_name": "cockpit-system",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit",
+    "source_section": "Core/distribution modules (not necessarily add-ons)",
+    "summary": "Core services, logs, users and system overview; normally bundled",
+    "tags": [
+      "cockpit",
+      "core-module"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-systemd-nspawn",
+    "kind": "extension",
+    "name": "systemd-nspawn",
+    "package_availability": "unverified",
+    "package_name": "cockpit-nspawn",
+    "schema_version": 1,
+    "source_repo": "https://github.com/realmcuser/cockpit-nspawn",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "systemd-nspawn system containers",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-tailscale-gbraad",
+    "kind": "extension",
+    "name": "Tailscale (gbraad)",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/gbraad-cockpit/cockpit-tailscale",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "Alternative Tailscale UI",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-tailscale-spotsnel",
+    "kind": "extension",
+    "name": "Tailscale (spotsnel)",
+    "package_availability": "unverified",
+    "package_name": "cockpit-tailscale",
+    "schema_version": 1,
+    "source_repo": "https://github.com/spotsnel/cockpit-tailscale",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Tailscale settings; pre-release",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-tailscaled",
+    "kind": "extension",
+    "name": "Tailscaled",
+    "package_availability": "unverified",
+    "package_name": "cockpit-tailscaled",
+    "schema_version": 1,
+    "source_repo": "https://github.com/Nicolazroyale/cockpit-tailscaled",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "Tailscale peers, exit nodes, DNS and routing",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-temperature-history",
+    "kind": "extension",
+    "name": "Temperature History",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/cgillinger/cockpit_temp",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "PCP/lm-sensors temperature charts; hobby project",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-top",
+    "kind": "extension",
+    "name": "Cockpit Top",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/ismetozalp/ctop",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "btop-like system/process monitor",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "suse",
+    "id": "cockpit-transactional-updates",
+    "kind": "extension",
+    "name": "Transactional Updates",
+    "package_availability": "unverified",
+    "package_name": "cockpit-tukit",
+    "schema_version": 1,
+    "source_repo": "https://github.com/openSUSE/cockpit-tukit",
+    "source_section": "SUSE/openSUSE-developed",
+    "summary": "SUSE transactional OS updates",
+    "tags": [
+      "cockpit",
+      "suse"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "first-party",
+    "id": "cockpit-virtual-machines",
+    "kind": "extension",
+    "name": "Virtual Machines",
+    "package_availability": "unverified",
+    "package_name": "cockpit-machines",
+    "schema_version": 1,
+    "source_repo": "https://github.com/cockpit-project/cockpit-machines",
+    "source_section": "Cockpit project (first-party)",
+    "summary": "KVM/libvirt virtual machine management",
+    "tags": [
+      "cockpit",
+      "first-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-vs-code-server-mietzen",
+    "kind": "extension",
+    "name": "VS Code Server (mietzen)",
+    "package_availability": "unverified",
+    "package_name": "cockpit-code-server",
+    "schema_version": 1,
+    "source_repo": "https://github.com/mietzen/cockpit-plugins",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "code-server service and web editor",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "cockpit-listed-third-party",
+    "id": "cockpit-zfs-manager",
+    "kind": "extension",
+    "name": "ZFS Manager",
+    "package_availability": "unverified",
+    "package_name": "cockpit-zfs",
+    "schema_version": 1,
+    "source_repo": "https://github.com/45Drives/cockpit-zfs",
+    "source_section": "Third-party plugins indexed by Cockpit",
+    "summary": "OpenZFS pools, datasets and snapshots",
+    "tags": [
+      "cockpit",
+      "cockpit-listed-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-zfs-manager-brycelarge",
+    "kind": "extension",
+    "name": "ZFS Manager (brycelarge)",
+    "package_availability": "unverified",
+    "package_name": null,
+    "schema_version": 1,
+    "source_repo": "https://github.com/brycelarge/cockpit-zfs-manager",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "Alternate ZFS frontend with optional Sanoid",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-management",
+    "ecosystem": "cockpit",
+    "group": "independent-third-party",
+    "id": "cockpit-zfs-storage-mietzen",
+    "kind": "extension",
+    "name": "ZFS Storage (mietzen)",
+    "package_availability": "unverified",
+    "package_name": "cockpit-zfs-storage",
+    "schema_version": 1,
+    "source_repo": "https://github.com/mietzen/cockpit-plugins",
+    "source_section": "Additional independently discovered third-party plugins",
+    "summary": "Alternative OpenZFS storage and SMART management",
+    "tags": [
+      "cockpit",
+      "independent-third-party"
+    ],
+    "verification": {
+      "checked_on": "2026-10-19",
+      "functional_tested": false,
+      "level": "research-snapshot",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+    }
+  },
+  {
+    "category": "server-linux",
+    "distribution_family": "debian",
+    "id": "debian",
+    "kind": "distribution",
+    "name": "Debian",
+    "release_model": "stable-and-testing-branches",
+    "schema_version": 1,
+    "summary": "Community-developed Linux distribution suitable for desktop and server use.",
+    "tags": [
+      "debian",
+      "server",
+      "desktop"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://www.debian.org/"
+    },
+    "website": "https://www.debian.org/"
+  },
+  {
+    "category": "remote-access",
+    "deployment_model": "container",
+    "id": "docker-firefox",
+    "kind": "software",
+    "name": "jlesage Docker Firefox",
+    "schema_version": 1,
+    "source_repo": "https://github.com/jlesage/docker-firefox",
+    "summary": "Firefox container exposing a browser-accessible graphical interface.",
+    "tags": [
+      "browser",
+      "remote-browser",
+      "docker"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "repository-listing",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"
+    }
+  },
+  {
+    "category": "ai-agents",
+    "id": "hermes-agent",
+    "kind": "software",
+    "name": "Hermes Agent",
+    "schema_version": 1,
+    "source_repo": "https://github.com/NousResearch/hermes-agent",
+    "summary": "General-purpose AI agent by Nous Research with persistent memory, learned skills and tool use.",
+    "tags": [
+      "ai-agent",
+      "memory",
+      "skills",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    "website": "https://hermes-agent.nousresearch.com"
+  },
+  {
+    "category": "remote-access",
+    "id": "kasmvnc",
+    "kind": "software",
+    "name": "KasmVNC",
+    "schema_version": 1,
+    "source_repo": "https://github.com/kasmtech/KasmVNC",
+    "summary": "Web-based remote desktop and application access technology.",
+    "tags": [
+      "remote-desktop",
+      "vnc"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "repository-listing",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"
+    }
+  },
+  {
+    "category": "remote-access",
+    "deployment_model": "container",
+    "id": "linuxserver-chromium",
+    "kind": "software",
+    "name": "LinuxServer Chromium",
+    "schema_version": 1,
+    "source_repo": "https://github.com/linuxserver/docker-chromium",
+    "summary": "Containerized Chromium with a browser-accessible graphical interface.",
+    "tags": [
+      "browser",
+      "remote-browser",
+      "docker"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "repository-listing",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"
+    }
+  },
+  {
+    "category": "remote-access",
+    "deployment_model": "container",
+    "id": "neko",
+    "kind": "software",
+    "name": "Neko",
+    "schema_version": 1,
+    "source_repo": "https://github.com/m1k1o/neko",
+    "summary": "Shared browser/desktop sessions streamed with WebRTC.",
+    "tags": [
+      "browser",
+      "webrtc",
+      "collaboration"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "repository-listing",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"
+    }
+  },
+  {
+    "category": "ai-agents",
+    "id": "openclaw",
+    "kind": "software",
+    "name": "OpenClaw",
+    "schema_version": 1,
+    "source_repo": "https://github.com/openclaw/openclaw",
+    "summary": "Open-source personal AI assistant that connects messaging, applications and tools to automate tasks.",
+    "tags": [
+      "ai-agent",
+      "personal-assistant",
+      "automation",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/openclaw/openclaw"
+    },
+    "website": "https://openclaw.ai"
+  },
+  {
+    "category": "ai-agents",
+    "id": "openhands",
+    "kind": "software",
+    "name": "OpenHands",
+    "schema_version": 1,
+    "source_repo": "https://github.com/OpenHands/OpenHands",
+    "summary": "AI-driven software development platform and control center for coding agents and automations.",
+    "tags": [
+      "ai-agent",
+      "coding-agent",
+      "development",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/OpenHands/OpenHands"
+    },
+    "website": "https://openhands.dev"
+  },
+  {
+    "category": "ai-agents",
+    "id": "paperclip",
+    "kind": "software",
+    "name": "Paperclip",
+    "schema_version": 1,
+    "source_repo": "https://github.com/paperclipai/paperclip",
+    "summary": "Self-hosted orchestration platform for coordinating multiple AI agents, goals, tasks, budgets and approvals.",
+    "tags": [
+      "ai-agent",
+      "orchestration",
+      "multi-agent",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/paperclipai/paperclip"
+    }
+  },
+  {
+    "based_on": "ubuntu-devel",
+    "category": "desktop-linux",
+    "desktop": "xfce-based",
+    "distribution_family": "ubuntu",
+    "id": "rhino-linux",
+    "kind": "distribution",
+    "name": "Rhino Linux",
+    "release_model": "rolling",
+    "schema_version": 1,
+    "source_repo": "https://github.com/rhino-linux",
+    "summary": "Ubuntu-based rolling-release Linux distribution using Pacstall and an XFCE-based desktop.",
+    "tags": [
+      "ubuntu",
+      "rolling-release",
+      "xfce"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://rhinolinux.org/"
+    },
+    "website": "https://rhinolinux.org/"
+  },
+  {
+    "category": "monitoring",
+    "id": "terminal-trove",
+    "kind": "resource",
+    "name": "Terminal Trove — top alternatives",
+    "schema_version": 1,
+    "summary": "Curated directory of terminal-based process and system monitoring alternatives.",
+    "tags": [
+      "terminal",
+      "monitoring",
+      "directory"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "repository-listing",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"
+    },
+    "website": "https://terminaltrove.com/categories/top/"
+  },
+  {
+    "category": "atomic-os",
+    "distribution_family": "fedora",
+    "id": "universal-blue",
+    "kind": "os-ecosystem",
+    "name": "Universal Blue",
+    "schema_version": 1,
+    "summary": "Fedora-based bootc/OCI image-building ecosystem, not a standalone Linux distribution.",
+    "tags": [
+      "fedora",
+      "atomic",
+      "oci-images",
+      "bootc"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://universal-blue.org/"
+    },
+    "website": "https://universal-blue.org/"
+  },
+  {
+    "category": "boot-media",
+    "id": "ventoy",
+    "kind": "software",
+    "name": "Ventoy",
+    "schema_version": 1,
+    "summary": "Bootable USB tool for using ISO and other image files.",
+    "tags": [
+      "usb",
+      "installer"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "repository-listing",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"
+    },
+    "website": "https://www.ventoy.net/en/index.html"
+  },
+  {
+    "category": "remote-access",
+    "deployment_model": "native-or-managed",
+    "id": "xpra",
+    "kind": "software",
+    "name": "Xpra HTML5",
+    "schema_version": 1,
+    "source_repo": "https://github.com/Xpra-org/xpra-html5",
+    "summary": "HTML5 client for forwarding remote Linux application windows.",
+    "tags": [
+      "browser",
+      "remote-app"
+    ],
+    "verification": {
+      "checked_on": "2026-10-24",
+      "functional_tested": false,
+      "level": "repository-listing",
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"
+    }
+  }
+]

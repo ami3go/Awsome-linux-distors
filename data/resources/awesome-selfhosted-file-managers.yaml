@@ -1,0 +1,16 @@
+schema_version: 1
+id: "awesome-selfhosted-file-managers"
+name: "Awesome Selfhosted — web file managers"
+kind: "resource"
+category: "file-management"
+summary: "Directory of browser-based, self-hosted file management projects."
+website: "https://awesome-selfhosted.net/tags/file-transfer---web-based-file-managers.html"
+tags:
+  - "selfhosted"
+  - "file-manager"
+  - "directory"
+verification:
+  checked_on: "2026-10-24"
+  level: "repository-listing"
+  functional_tested: false
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"
