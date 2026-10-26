@@ -1,5 +1,27 @@
 [
   {
+    "category": "ai-agents",
+    "id": "agent-zero",
+    "kind": "software",
+    "name": "Agent Zero",
+    "schema_version": 1,
+    "source_repo": "https://github.com/agent0ai/agent-zero",
+    "summary": "Autonomous general-purpose AI framework supporting tool creation, computer use and multi-agent task execution.",
+    "tags": [
+      "ai-agent",
+      "framework",
+      "computer-use",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/agent0ai/agent-zero"
+    },
+    "website": "https://agent-zero.ai"
+  },
+  {
     "category": "file-management",
     "id": "awesome-selfhosted-file-managers",
     "kind": "resource",
@@ -18,6 +40,27 @@
       "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"
     },
     "website": "https://awesome-selfhosted.net/tags/file-transfer---web-based-file-managers.html"
+  },
+  {
+    "category": "ai-agents",
+    "id": "buzz",
+    "kind": "software",
+    "name": "Buzz",
+    "schema_version": 1,
+    "source_repo": "https://github.com/block/buzz",
+    "summary": "Open-source team workspace for humans and AI agents to collaborate through conversations and workflows.",
+    "tags": [
+      "ai-agent",
+      "collaboration",
+      "workspace",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/block/buzz"
+    }
   },
   {
     "category": "server-management",
@@ -1644,6 +1687,28 @@
     }
   },
   {
+    "category": "ai-agents",
+    "id": "hermes-agent",
+    "kind": "software",
+    "name": "Hermes Agent",
+    "schema_version": 1,
+    "source_repo": "https://github.com/NousResearch/hermes-agent",
+    "summary": "General-purpose AI agent by Nous Research with persistent memory, learned skills and tool use.",
+    "tags": [
+      "ai-agent",
+      "memory",
+      "skills",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    "website": "https://hermes-agent.nousresearch.com"
+  },
+  {
     "category": "remote-access",
     "id": "kasmvnc",
     "kind": "software",
@@ -1702,6 +1767,71 @@
       "functional_tested": false,
       "level": "repository-listing",
       "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"
+    }
+  },
+  {
+    "category": "ai-agents",
+    "id": "openclaw",
+    "kind": "software",
+    "name": "OpenClaw",
+    "schema_version": 1,
+    "source_repo": "https://github.com/openclaw/openclaw",
+    "summary": "Open-source personal AI assistant that connects messaging, applications and tools to automate tasks.",
+    "tags": [
+      "ai-agent",
+      "personal-assistant",
+      "automation",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/openclaw/openclaw"
+    },
+    "website": "https://openclaw.ai"
+  },
+  {
+    "category": "ai-agents",
+    "id": "openhands",
+    "kind": "software",
+    "name": "OpenHands",
+    "schema_version": 1,
+    "source_repo": "https://github.com/OpenHands/OpenHands",
+    "summary": "AI-driven software development platform and control center for coding agents and automations.",
+    "tags": [
+      "ai-agent",
+      "coding-agent",
+      "development",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/OpenHands/OpenHands"
+    },
+    "website": "https://openhands.dev"
+  },
+  {
+    "category": "ai-agents",
+    "id": "paperclip",
+    "kind": "software",
+    "name": "Paperclip",
+    "schema_version": 1,
+    "source_repo": "https://github.com/paperclipai/paperclip",
+    "summary": "Self-hosted orchestration platform for coordinating multiple AI agents, goals, tasks, budgets and approvals.",
+    "tags": [
+      "ai-agent",
+      "orchestration",
+      "multi-agent",
+      "self-hosted"
+    ],
+    "verification": {
+      "checked_on": "2026-10-26",
+      "functional_tested": false,
+      "level": "official-documentation",
+      "source": "https://github.com/paperclipai/paperclip"
     }
   },
   {

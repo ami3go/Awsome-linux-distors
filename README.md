@@ -1,6 +1,6 @@
 # Awesome Linux Catalog
 
-A curated, source-linked catalog of Linux distributions, OS image ecosystems, administration software, remote-access tools, utilities and Cockpit components.
+A curated, source-linked catalog of Linux distributions, OS image ecosystems, administration software, AI-agent platforms, remote-access tools, utilities and Cockpit components.
 
 > **Evidence policy:** A link is not evidence that software was installed, tested, maintained, secure, or available in Debian repositories. See [verification rules](docs/MAINTENANCE.md).
 
@@ -10,6 +10,7 @@ A curated, source-linked catalog of Linux distributions, OS image ecosystems, ad
 | --- | --- | --- |
 | Distributions and atomic-image ecosystems | [Distribution/software index](generated/software-index.md) | [Distribution notes](docs/distributions/index.md) |
 | Linux tools and curated resource directories | [Software index](generated/software-index.md) | [Software notes](docs/software/index.md) |
+| AI agents and orchestration | [AI agent entries](generated/software-index.md) | [AI agent guide](docs/software/ai-agents.md) |
 | Cockpit server management | [65-entry Cockpit catalog](generated/cockpit-plugins.md) | [Cockpit guide](docs/server-management/cockpit.md) |
 | Remote browser and desktop tools | [Remote-access entries](generated/software-index.md) | [Remote browser projects and screenshots](docs/remote-access/browser-in-browser.md) |
 | Mini PC and headless deployments | [Software index](generated/software-index.md) | [Mini PC notes](docs/hardware/mini-pc.md) |

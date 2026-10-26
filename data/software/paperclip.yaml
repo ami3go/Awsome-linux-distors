@@ -1,0 +1,17 @@
+schema_version: 1
+id: "paperclip"
+name: "Paperclip"
+kind: "software"
+category: "ai-agents"
+summary: "Self-hosted orchestration platform for coordinating multiple AI agents, goals, tasks, budgets and approvals."
+source_repo: "https://github.com/paperclipai/paperclip"
+tags:
+  - "ai-agent"
+  - "orchestration"
+  - "multi-agent"
+  - "self-hosted"
+verification:
+  checked_on: "2026-10-26"
+  level: "official-documentation"
+  functional_tested: false
+  source: "https://github.com/paperclipai/paperclip"

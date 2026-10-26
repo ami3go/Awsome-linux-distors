@@ -1,0 +1,17 @@
+schema_version: 1
+id: "buzz"
+name: "Buzz"
+kind: "software"
+category: "ai-agents"
+summary: "Open-source team workspace for humans and AI agents to collaborate through conversations and workflows."
+source_repo: "https://github.com/block/buzz"
+tags:
+  - "ai-agent"
+  - "collaboration"
+  - "workspace"
+  - "self-hosted"
+verification:
+  checked_on: "2026-10-26"
+  level: "official-documentation"
+  functional_tested: false
+  source: "https://github.com/block/buzz"

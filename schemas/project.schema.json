@@ -43,7 +43,8 @@
         "server-management",
         "remote-access",
         "monitoring",
-        "file-management"
+        "file-management",
+        "ai-agents"
       ]
     },
     "summary": {

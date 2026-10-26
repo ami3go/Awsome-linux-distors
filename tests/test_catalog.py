@@ -31,6 +31,26 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(65, len(expected), "Unexpected source snapshot size")
         self.assertEqual(expected, actual, "Entry names/source URLs changed or were lost")
 
+    def test_requested_ai_agent_catalog(self):
+        expected = {
+            "openclaw": "https://github.com/openclaw/openclaw",
+            "hermes-agent": "https://github.com/NousResearch/hermes-agent",
+            "agent-zero": "https://github.com/agent0ai/agent-zero",
+            "openhands": "https://github.com/OpenHands/OpenHands",
+            "paperclip": "https://github.com/paperclipai/paperclip",
+            "buzz": "https://github.com/block/buzz",
+        }
+        actual = {
+            record["id"]: record for _, record in load_records()
+            if record.get("category") == "ai-agents"
+        }
+        self.assertEqual(set(expected), set(actual))
+        for identifier, source in expected.items():
+            with self.subTest(agent=identifier):
+                self.assertEqual("software", actual[identifier]["kind"])
+                self.assertEqual(source, actual[identifier]["source_repo"])
+                self.assertFalse(actual[identifier]["verification"]["functional_tested"])
+
     def test_generated_outputs_committed(self):
         for relative, content in render_outputs().items():
             with self.subTest(path=relative):
