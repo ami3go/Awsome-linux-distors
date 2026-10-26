@@ -2,7 +2,8 @@ schema_version: 1
 id: "cockpit-file-sharing-mietzen"
 name: "File Sharing (mietzen)"
 kind: "extension"
-category: "server-management"
+category: "storage-backups"
+listing_status: "research"
 summary: "Alternative SMB/NFS sharing; package name overlaps 45Drives"
 source_repo: "https://github.com/mietzen/cockpit-plugins"
 ecosystem: "cockpit"
@@ -15,6 +16,6 @@ tags:
   - "independent-third-party"
 verification:
   checked_on: "2026-10-19"
-  level: "research-snapshot"
   functional_tested: false
-  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+  level: "research-snapshot"
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"

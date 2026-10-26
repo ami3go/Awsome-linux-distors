@@ -3,6 +3,7 @@ id: "neko"
 name: "Neko"
 kind: "software"
 category: "remote-access"
+listing_status: "research"
 summary: "Shared browser/desktop sessions streamed with WebRTC."
 source_repo: "https://github.com/m1k1o/neko"
 deployment_model: "container"
@@ -12,6 +13,6 @@ tags:
   - "collaboration"
 verification:
   checked_on: "2026-10-24"
-  level: "repository-listing"
   functional_tested: false
+  level: "repository-listing"
   source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"

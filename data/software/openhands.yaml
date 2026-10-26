@@ -3,6 +3,7 @@ id: "openhands"
 name: "OpenHands"
 kind: "software"
 category: "ai-agents"
+listing_status: "highlighted"
 summary: "AI-driven software development platform and control center for coding agents and automations."
 website: "https://openhands.dev"
 source_repo: "https://github.com/OpenHands/OpenHands"
@@ -13,6 +14,6 @@ tags:
   - "self-hosted"
 verification:
   checked_on: "2026-10-26"
-  level: "official-documentation"
   functional_tested: false
+  level: "official-documentation"
   source: "https://github.com/OpenHands/OpenHands"

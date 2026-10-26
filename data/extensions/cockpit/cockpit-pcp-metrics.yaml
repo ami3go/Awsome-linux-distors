@@ -2,7 +2,8 @@ schema_version: 1
 id: "cockpit-pcp-metrics"
 name: "PCP Metrics"
 kind: "extension"
-category: "server-management"
+category: "terminal-monitoring"
+listing_status: "highlighted"
 summary: "Performance Co-Pilot time series and metric history"
 source_repo: "https://github.com/cockpit-project/cockpit"
 ecosystem: "cockpit"
@@ -15,6 +16,6 @@ tags:
   - "core-module"
 verification:
   checked_on: "2026-10-19"
-  level: "research-snapshot"
   functional_tested: false
-  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+  level: "research-snapshot"
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"

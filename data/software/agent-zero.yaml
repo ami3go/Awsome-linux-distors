@@ -3,6 +3,7 @@ id: "agent-zero"
 name: "Agent Zero"
 kind: "software"
 category: "ai-agents"
+listing_status: "highlighted"
 summary: "Autonomous general-purpose AI framework supporting tool creation, computer use and multi-agent task execution."
 website: "https://agent-zero.ai"
 source_repo: "https://github.com/agent0ai/agent-zero"
@@ -13,6 +14,6 @@ tags:
   - "self-hosted"
 verification:
   checked_on: "2026-10-26"
-  level: "official-documentation"
   functional_tested: false
+  level: "official-documentation"
   source: "https://github.com/agent0ai/agent-zero"

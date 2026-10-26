@@ -2,7 +2,8 @@ schema_version: 1
 id: "cockpit-caddy"
 name: "Caddy"
 kind: "extension"
-category: "server-management"
+category: "networking-security"
+listing_status: "research"
 summary: "Caddy reverse proxy; supports Debian .deb; requires Cockpit 300+"
 source_repo: "https://github.com/RXTX4816/cockpit-caddy"
 ecosystem: "cockpit"
@@ -15,6 +16,6 @@ tags:
   - "independent-third-party"
 verification:
   checked_on: "2026-10-19"
-  level: "research-snapshot"
   functional_tested: false
-  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+  level: "research-snapshot"
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"

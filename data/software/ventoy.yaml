@@ -2,7 +2,8 @@ schema_version: 1
 id: "ventoy"
 name: "Ventoy"
 kind: "software"
-category: "boot-media"
+category: "installation-boot"
+listing_status: "highlighted"
 summary: "Bootable USB tool for using ISO and other image files."
 website: "https://www.ventoy.net/en/index.html"
 tags:
@@ -10,6 +11,6 @@ tags:
   - "installer"
 verification:
   checked_on: "2026-10-24"
-  level: "repository-listing"
   functional_tested: false
+  level: "repository-listing"
   source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"

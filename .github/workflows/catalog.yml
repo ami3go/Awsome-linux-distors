@@ -8,7 +8,11 @@ on:
       - "scripts/**"
       - "tests/**"
       - "generated/**"
-      - "COCKPIT_PLUGINS.md"
+      - "categories/**"
+      - "integrations/**"
+      - "archive/**"
+      - "README.md"
+      - "CONTRIBUTING.md"
       - "requirements-dev.txt"
       - ".github/workflows/catalog.yml"
   pull_request:
@@ -25,11 +29,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install validation tools
+      - name: Install validation dependencies
         run: python -m pip install -r requirements-dev.txt
-      - name: Validate schema and cross-record consistency
+      - name: Validate schema, IDs and classification
         run: python scripts/validate_catalog.py
-      - name: Verify reproducible generated files
+      - name: Check generated views are committed
         run: python scripts/build_indexes.py --check
-      - name: Run catalog regression tests
+      - name: Verify internal documentation links
+        run: python scripts/check_links.py
+      - name: Run migration and navigation regression tests
         run: python -m unittest discover -s tests -v
+
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Lint Awesome List README
+        run: npx --yes awesome-lint

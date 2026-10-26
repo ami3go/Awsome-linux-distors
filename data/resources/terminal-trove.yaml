@@ -2,7 +2,8 @@ schema_version: 1
 id: "terminal-trove"
 name: "Terminal Trove — top alternatives"
 kind: "resource"
-category: "monitoring"
+category: "terminal-monitoring"
+listing_status: "research"
 summary: "Curated directory of terminal-based process and system monitoring alternatives."
 website: "https://terminaltrove.com/categories/top/"
 tags:
@@ -11,6 +12,6 @@ tags:
   - "directory"
 verification:
   checked_on: "2026-10-24"
-  level: "repository-listing"
   functional_tested: false
+  level: "repository-listing"
   source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"

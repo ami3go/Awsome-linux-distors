@@ -1,12 +1,5 @@
-# Linux software and resource directories
+# Linux software directory
 
-The [software index](../../generated/software-index.md) includes boot tools, the Cockpit administration console, remote-access projects, AI agents, and curated directories.
+Browse the [main Awesome Linux Homelab list](../../README.md#contents) and the generated functional categories. For agent tools, see the [AI & Automation category](../../categories/ai-agents.md). For administration modules grouped by purpose, use the [Cockpit integration directory](../../integrations/cockpit/README.md).
 
-- **AI agents and orchestration:** [OpenClaw, Hermes Agent, Agent Zero, OpenHands, Paperclip and Buzz](ai-agents.md)
-- **Boot media:** Ventoy
-- **Server management:** Cockpit and its separate 65-component catalog
-- **Remote access:** Xpra HTML5, jlesage Docker Firefox, LinuxServer Chromium, Neko, KasmVNC
-- **Terminal monitoring discovery:** Terminal Trove top alternatives
-- **Self-hosted file-manager discovery:** Awesome Selfhosted file-manager directory
-
-An external directory is classified as a **resource**, rather than incorrectly counted as a software package.
+The [complete index](../../generated/software-index.md) and [source JSON export](../../generated/catalog.json) provide all records and editorial statuses.

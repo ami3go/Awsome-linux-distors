@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "id": "linux-distributions",
+      "title": "Linux Distributions",
+      "description": "Desktop, server and atomic Linux operating systems."
+    },
+    {
+      "id": "installation-boot",
+      "title": "Installation & Boot",
+      "description": "Boot media, image creation and boot configuration."
+    },
+    {
+      "id": "system-administration",
+      "title": "System Administration",
+      "description": "Host dashboards, packages, services and platform settings."
+    },
+    {
+      "id": "storage-backups",
+      "title": "Storage & Backups",
+      "description": "Disks, files, sharing, backup and transfer tools."
+    },
+    {
+      "id": "networking-security",
+      "title": "Networking & Security",
+      "description": "Network configuration, VPNs, DNS, firewalls and host security."
+    },
+    {
+      "id": "containers-virtualization",
+      "title": "Containers & Virtualization",
+      "description": "Container runtimes, VMs and orchestration interfaces."
+    },
+    {
+      "id": "remote-access",
+      "title": "Remote Access",
+      "description": "Remote desktops, browsers, code environments and support tools."
+    },
+    {
+      "id": "ai-agents",
+      "title": "AI & Automation",
+      "description": "Personal AI agents, coding agents and multi-agent workspaces."
+    },
+    {
+      "id": "terminal-monitoring",
+      "title": "Terminal & Monitoring",
+      "description": "System diagnostics, health metrics and monitoring resources."
+    },
+    {
+      "id": "further-resources",
+      "title": "Further Resources",
+      "description": "Related directories and projects outside the primary selections."
+    }
+  ]
+}

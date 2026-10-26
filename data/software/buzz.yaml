@@ -3,6 +3,7 @@ id: "buzz"
 name: "Buzz"
 kind: "software"
 category: "ai-agents"
+listing_status: "highlighted"
 summary: "Open-source team workspace for humans and AI agents to collaborate through conversations and workflows."
 source_repo: "https://github.com/block/buzz"
 tags:
@@ -12,6 +13,6 @@ tags:
   - "self-hosted"
 verification:
   checked_on: "2026-10-26"
-  level: "official-documentation"
   functional_tested: false
+  level: "official-documentation"
   source: "https://github.com/block/buzz"

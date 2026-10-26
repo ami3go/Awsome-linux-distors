@@ -2,7 +2,8 @@ schema_version: 1
 id: "rhino-linux"
 name: "Rhino Linux"
 kind: "distribution"
-category: "desktop-linux"
+category: "linux-distributions"
+listing_status: "highlighted"
 summary: "Ubuntu-based rolling-release Linux distribution using Pacstall and an XFCE-based desktop."
 website: "https://rhinolinux.org/"
 source_repo: "https://github.com/rhino-linux"
@@ -16,6 +17,6 @@ tags:
   - "xfce"
 verification:
   checked_on: "2026-10-24"
-  level: "official-documentation"
   functional_tested: false
+  level: "official-documentation"
   source: "https://rhinolinux.org/"

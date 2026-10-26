@@ -2,7 +2,8 @@ schema_version: 1
 id: "cockpit-software-updates"
 name: "Software Updates"
 kind: "extension"
-category: "server-management"
+category: "system-administration"
+listing_status: "research"
 summary: "PackageKit-based updates"
 source_repo: "https://github.com/cockpit-project/cockpit"
 ecosystem: "cockpit"
@@ -15,6 +16,6 @@ tags:
   - "first-party"
 verification:
   checked_on: "2026-10-19"
-  level: "research-snapshot"
   functional_tested: false
-  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+  level: "research-snapshot"
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
