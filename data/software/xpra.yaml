@@ -3,6 +3,7 @@ id: "xpra"
 name: "Xpra HTML5"
 kind: "software"
 category: "remote-access"
+listing_status: "highlighted"
 summary: "HTML5 client for forwarding remote Linux application windows."
 source_repo: "https://github.com/Xpra-org/xpra-html5"
 deployment_model: "native-or-managed"
@@ -11,6 +12,6 @@ tags:
   - "remote-app"
 verification:
   checked_on: "2026-10-24"
-  level: "repository-listing"
   functional_tested: false
+  level: "repository-listing"
   source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"

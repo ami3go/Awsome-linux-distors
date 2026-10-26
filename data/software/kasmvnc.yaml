@@ -3,6 +3,7 @@ id: "kasmvnc"
 name: "KasmVNC"
 kind: "software"
 category: "remote-access"
+listing_status: "highlighted"
 summary: "Web-based remote desktop and application access technology."
 source_repo: "https://github.com/kasmtech/KasmVNC"
 tags:
@@ -10,6 +11,6 @@ tags:
   - "vnc"
 verification:
   checked_on: "2026-10-24"
-  level: "repository-listing"
   functional_tested: false
+  level: "repository-listing"
   source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/README.md"

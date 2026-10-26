@@ -3,6 +3,7 @@
     "category": "ai-agents",
     "id": "agent-zero",
     "kind": "software",
+    "listing_status": "highlighted",
     "name": "Agent Zero",
     "schema_version": 1,
     "source_repo": "https://github.com/agent0ai/agent-zero",
@@ -22,9 +23,10 @@
     "website": "https://agent-zero.ai"
   },
   {
-    "category": "file-management",
+    "category": "storage-backups",
     "id": "awesome-selfhosted-file-managers",
     "kind": "resource",
+    "listing_status": "research",
     "name": "Awesome Selfhosted — web file managers",
     "schema_version": 1,
     "summary": "Directory of browser-based, self-hosted file management projects.",
@@ -45,6 +47,7 @@
     "category": "ai-agents",
     "id": "buzz",
     "kind": "software",
+    "listing_status": "highlighted",
     "name": "Buzz",
     "schema_version": 1,
     "source_repo": "https://github.com/block/buzz",
@@ -63,9 +66,10 @@
     }
   },
   {
-    "category": "server-management",
+    "category": "system-administration",
     "id": "cockpit",
     "kind": "software",
+    "listing_status": "highlighted",
     "name": "Cockpit",
     "schema_version": 1,
     "source_repo": "https://github.com/cockpit-project/cockpit",
@@ -84,11 +88,12 @@
     "website": "https://cockpit-project.org/"
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "red-hat",
     "id": "cockpit-389-directory-server",
     "kind": "extension",
+    "listing_status": "research",
     "name": "389 Directory Server",
     "package_availability": "unverified",
     "package_name": "cockpit-389-ds",
@@ -104,15 +109,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-backblaze-b2-backup",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Backblaze B2 Backup",
     "package_availability": "unverified",
     "package_name": null,
@@ -128,15 +134,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-benchmark",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Benchmark",
     "package_availability": "unverified",
     "package_name": null,
@@ -152,15 +159,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-bind-dns",
     "kind": "extension",
+    "listing_status": "research",
     "name": "BIND DNS",
     "package_availability": "unverified",
     "package_name": null,
@@ -176,15 +184,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "installation-boot",
     "ecosystem": "cockpit",
     "group": "suse",
     "id": "cockpit-bootloader",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Bootloader",
     "package_availability": "unverified",
     "package_name": "cockpit-bootloader",
@@ -200,15 +209,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-caddy",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Caddy",
     "package_availability": "unverified",
     "package_name": "cockpit-caddy",
@@ -224,15 +234,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-cloudflare-tunnels",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Cloudflare tunnels",
     "package_availability": "unverified",
     "package_name": "cockpit-cloudflared",
@@ -248,15 +259,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "installation-boot",
     "ecosystem": "cockpit",
     "group": "historical",
     "id": "cockpit-composer",
     "kind": "extension",
+    "listing_status": "legacy",
     "name": "Cockpit Composer",
     "package_availability": "unverified",
     "package_name": null,
@@ -272,15 +284,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "containers-virtualization",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-container-manager-mietzen",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Container Manager (mietzen)",
     "package_availability": "unverified",
     "package_name": "cockpit-container-manager",
@@ -296,15 +309,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "terminal-monitoring",
     "ecosystem": "cockpit",
     "group": "first-party",
     "id": "cockpit-diagnostic-reports",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Diagnostic Reports",
     "package_availability": "unverified",
     "package_name": "cockpit-sosreport",
@@ -320,15 +334,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "containers-virtualization",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-docker-compose",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Docker Compose",
     "package_availability": "unverified",
     "package_name": "cockpit-compose",
@@ -344,15 +359,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "containers-virtualization",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-docker-manager",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Docker Manager",
     "package_availability": "unverified",
     "package_name": null,
@@ -368,15 +384,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-download-superstation",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Download Superstation",
     "package_availability": "unverified",
     "package_name": "cockpit-download-superstation",
@@ -392,15 +409,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-explorer",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Explorer",
     "package_availability": "unverified",
     "package_name": null,
@@ -416,15 +434,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-file-sharing",
     "kind": "extension",
+    "listing_status": "research",
     "name": "File Sharing",
     "package_availability": "unverified",
     "package_name": null,
@@ -440,15 +459,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-file-sharing-mietzen",
     "kind": "extension",
+    "listing_status": "research",
     "name": "File Sharing (mietzen)",
     "package_availability": "unverified",
     "package_name": "cockpit-file-sharing",
@@ -464,15 +484,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "first-party",
     "id": "cockpit-files",
     "kind": "extension",
+    "listing_status": "highlighted",
     "name": "Cockpit Files",
     "package_availability": "unverified",
     "package_name": "cockpit-files",
@@ -488,15 +509,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-hangar",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Hangar",
     "package_availability": "unverified",
     "package_name": null,
@@ -512,15 +534,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-headscale",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Headscale",
     "package_availability": "unverified",
     "package_name": "cockpit-headscale",
@@ -536,15 +559,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "containers-virtualization",
     "ecosystem": "cockpit",
     "group": "red-hat",
     "id": "cockpit-high-availability-cluster",
     "kind": "extension",
+    "listing_status": "research",
     "name": "High Availability Cluster",
     "package_availability": "unverified",
     "package_name": "cockpit-ha-cluster",
@@ -560,15 +584,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "installation-boot",
     "ecosystem": "cockpit",
     "group": "red-hat",
     "id": "cockpit-image-builder",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Image Builder",
     "package_availability": "unverified",
     "package_name": "cockpit-image-builder",
@@ -584,15 +609,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "further-resources",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-inflight-tv",
     "kind": "extension",
+    "listing_status": "research",
     "name": "InFlight TV",
     "package_availability": "unverified",
     "package_name": null,
@@ -608,15 +634,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "terminal-monitoring",
     "ecosystem": "cockpit",
     "group": "first-party",
     "id": "cockpit-kernel-dump",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Kernel Dump",
     "package_availability": "unverified",
     "package_name": "cockpit-kdump",
@@ -632,15 +659,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-manifest",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Manifest",
     "package_availability": "unverified",
     "package_name": null,
@@ -656,15 +684,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "containers-virtualization",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-microshift",
     "kind": "extension",
+    "listing_status": "research",
     "name": "MicroShift",
     "package_availability": "unverified",
     "package_name": null,
@@ -680,15 +709,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-navigator",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Navigator",
     "package_availability": "unverified",
     "package_name": null,
@@ -704,15 +734,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "first-party",
     "id": "cockpit-networking",
     "kind": "extension",
+    "listing_status": "highlighted",
     "name": "Networking",
     "package_availability": "unverified",
     "package_name": "cockpit-networkmanager",
@@ -728,15 +759,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "historical",
     "id": "cockpit-older-samba-manager",
     "kind": "extension",
+    "listing_status": "legacy",
     "name": "Older Samba Manager",
     "package_availability": "unverified",
     "package_name": null,
@@ -752,15 +784,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "historical",
     "id": "cockpit-original-zfs-manager",
     "kind": "extension",
+    "listing_status": "legacy",
     "name": "Original ZFS Manager",
     "package_availability": "unverified",
     "package_name": null,
@@ -776,15 +809,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "system-administration",
     "ecosystem": "cockpit",
     "group": "first-party",
     "id": "cockpit-ostree-updates",
     "kind": "extension",
+    "listing_status": "research",
     "name": "OSTree Updates",
     "package_availability": "unverified",
     "package_name": "cockpit-ostree",
@@ -800,15 +834,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "system-administration",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-package-manager",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Package Manager",
     "package_availability": "unverified",
     "package_name": null,
@@ -824,15 +859,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "system-administration",
     "ecosystem": "cockpit",
     "group": "suse",
     "id": "cockpit-packages",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Packages",
     "package_availability": "unverified",
     "package_name": "cockpit-packages",
@@ -848,15 +884,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "system-administration",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-pacman",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Pacman",
     "package_availability": "unverified",
     "package_name": "cockpit-pacman",
@@ -872,15 +909,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "terminal-monitoring",
     "ecosystem": "cockpit",
     "group": "core-module",
     "id": "cockpit-pcp-metrics",
     "kind": "extension",
+    "listing_status": "highlighted",
     "name": "PCP Metrics",
     "package_availability": "unverified",
     "package_name": "cockpit-pcp",
@@ -896,15 +934,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "remote-access",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-pilot",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Pilot",
     "package_availability": "unverified",
     "package_name": null,
@@ -920,15 +959,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-plakar-backup",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Plakar Backup",
     "package_availability": "unverified",
     "package_name": null,
@@ -944,15 +984,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "containers-virtualization",
     "ecosystem": "cockpit",
     "group": "first-party",
     "id": "cockpit-podman-containers",
     "kind": "extension",
+    "listing_status": "highlighted",
     "name": "Podman Containers",
     "package_availability": "unverified",
     "package_name": "cockpit-podman",
@@ -968,15 +1009,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-port-forward-manager",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Port Forward Manager",
     "package_availability": "unverified",
     "package_name": null,
@@ -992,15 +1034,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "system-administration",
     "ecosystem": "cockpit",
     "group": "suse",
     "id": "cockpit-repositories",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Repositories",
     "package_availability": "unverified",
     "package_name": "cockpit-repos",
@@ -1016,15 +1059,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "system-administration",
     "ecosystem": "cockpit",
     "group": "red-hat",
     "id": "cockpit-rhel-subscription-manager",
     "kind": "extension",
+    "listing_status": "research",
     "name": "RHEL Subscription Manager",
     "package_availability": "unverified",
     "package_name": "subscription-manager-cockpit",
@@ -1040,15 +1084,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "terminal-monitoring",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-ros-2-diagnostics",
     "kind": "extension",
+    "listing_status": "research",
     "name": "ROS 2 Diagnostics",
     "package_availability": "unverified",
     "package_name": "cockpit-ros2-diagnostics",
@@ -1064,15 +1109,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-router-management",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Router Management",
     "package_availability": "unverified",
     "package_name": null,
@@ -1088,15 +1134,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-scap-compliance",
     "kind": "extension",
+    "listing_status": "research",
     "name": "SCAP Compliance",
     "package_availability": "unverified",
     "package_name": "cockpit-scap",
@@ -1112,15 +1159,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-security",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Cockpit Security",
     "package_availability": "unverified",
     "package_name": null,
@@ -1136,15 +1184,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "first-party",
     "id": "cockpit-selinux",
     "kind": "extension",
+    "listing_status": "research",
     "name": "SELinux",
     "package_availability": "unverified",
     "package_name": "cockpit-selinux",
@@ -1160,15 +1209,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "terminal-monitoring",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-sensors",
     "kind": "extension",
+    "listing_status": "highlighted",
     "name": "Sensors",
     "package_availability": "unverified",
     "package_name": "cockpit-sensors",
@@ -1184,15 +1234,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "red-hat",
     "id": "cockpit-session-recording",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Session Recording",
     "package_availability": "unverified",
     "package_name": "cockpit-session-recording",
@@ -1208,15 +1259,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-snapraid",
     "kind": "extension",
+    "listing_status": "research",
     "name": "SnapRAID",
     "package_availability": "unverified",
     "package_name": null,
@@ -1232,15 +1284,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "system-administration",
     "ecosystem": "cockpit",
     "group": "first-party",
     "id": "cockpit-software-updates",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Software Updates",
     "package_availability": "unverified",
     "package_name": "cockpit-packagekit",
@@ -1256,15 +1309,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "first-party",
     "id": "cockpit-storage",
     "kind": "extension",
+    "listing_status": "highlighted",
     "name": "Storage",
     "package_availability": "unverified",
     "package_name": "cockpit-storaged",
@@ -1280,15 +1334,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-sudo-manager",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Sudo Manager",
     "package_availability": "unverified",
     "package_name": null,
@@ -1304,15 +1359,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "system-administration",
     "ecosystem": "cockpit",
     "group": "suse",
     "id": "cockpit-suse-subscriptions",
     "kind": "extension",
+    "listing_status": "research",
     "name": "SUSE Subscriptions",
     "package_availability": "unverified",
     "package_name": "cockpit-subscriptions",
@@ -1328,15 +1384,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "system-administration",
     "ecosystem": "cockpit",
     "group": "core-module",
     "id": "cockpit-system-overview",
     "kind": "extension",
+    "listing_status": "research",
     "name": "System Overview",
     "package_availability": "unverified",
     "package_name": "cockpit-system",
@@ -1352,15 +1409,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "containers-virtualization",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-systemd-nspawn",
     "kind": "extension",
+    "listing_status": "research",
     "name": "systemd-nspawn",
     "package_availability": "unverified",
     "package_name": "cockpit-nspawn",
@@ -1376,15 +1434,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-tailscale-gbraad",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Tailscale (gbraad)",
     "package_availability": "unverified",
     "package_name": null,
@@ -1400,15 +1459,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-tailscale-spotsnel",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Tailscale (spotsnel)",
     "package_availability": "unverified",
     "package_name": "cockpit-tailscale",
@@ -1424,15 +1484,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "networking-security",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-tailscaled",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Tailscaled",
     "package_availability": "unverified",
     "package_name": "cockpit-tailscaled",
@@ -1448,15 +1509,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "terminal-monitoring",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-temperature-history",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Temperature History",
     "package_availability": "unverified",
     "package_name": null,
@@ -1472,15 +1534,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "terminal-monitoring",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-top",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Cockpit Top",
     "package_availability": "unverified",
     "package_name": null,
@@ -1496,15 +1559,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "system-administration",
     "ecosystem": "cockpit",
     "group": "suse",
     "id": "cockpit-transactional-updates",
     "kind": "extension",
+    "listing_status": "research",
     "name": "Transactional Updates",
     "package_availability": "unverified",
     "package_name": "cockpit-tukit",
@@ -1520,15 +1584,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "containers-virtualization",
     "ecosystem": "cockpit",
     "group": "first-party",
     "id": "cockpit-virtual-machines",
     "kind": "extension",
+    "listing_status": "highlighted",
     "name": "Virtual Machines",
     "package_availability": "unverified",
     "package_name": "cockpit-machines",
@@ -1544,15 +1609,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "remote-access",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-vs-code-server-mietzen",
     "kind": "extension",
+    "listing_status": "research",
     "name": "VS Code Server (mietzen)",
     "package_availability": "unverified",
     "package_name": "cockpit-code-server",
@@ -1568,15 +1634,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "cockpit-listed-third-party",
     "id": "cockpit-zfs-manager",
     "kind": "extension",
+    "listing_status": "research",
     "name": "ZFS Manager",
     "package_availability": "unverified",
     "package_name": "cockpit-zfs",
@@ -1592,15 +1659,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-zfs-manager-brycelarge",
     "kind": "extension",
+    "listing_status": "research",
     "name": "ZFS Manager (brycelarge)",
     "package_availability": "unverified",
     "package_name": null,
@@ -1616,15 +1684,16 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-management",
+    "category": "storage-backups",
     "ecosystem": "cockpit",
     "group": "independent-third-party",
     "id": "cockpit-zfs-storage-mietzen",
     "kind": "extension",
+    "listing_status": "research",
     "name": "ZFS Storage (mietzen)",
     "package_availability": "unverified",
     "package_name": "cockpit-zfs-storage",
@@ -1640,14 +1709,15 @@
       "checked_on": "2026-10-19",
       "functional_tested": false,
       "level": "research-snapshot",
-      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+      "source": "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"
     }
   },
   {
-    "category": "server-linux",
+    "category": "linux-distributions",
     "distribution_family": "debian",
     "id": "debian",
     "kind": "distribution",
+    "listing_status": "highlighted",
     "name": "Debian",
     "release_model": "stable-and-testing-branches",
     "schema_version": 1,
@@ -1670,6 +1740,7 @@
     "deployment_model": "container",
     "id": "docker-firefox",
     "kind": "software",
+    "listing_status": "research",
     "name": "jlesage Docker Firefox",
     "schema_version": 1,
     "source_repo": "https://github.com/jlesage/docker-firefox",
@@ -1690,6 +1761,7 @@
     "category": "ai-agents",
     "id": "hermes-agent",
     "kind": "software",
+    "listing_status": "highlighted",
     "name": "Hermes Agent",
     "schema_version": 1,
     "source_repo": "https://github.com/NousResearch/hermes-agent",
@@ -1712,6 +1784,7 @@
     "category": "remote-access",
     "id": "kasmvnc",
     "kind": "software",
+    "listing_status": "highlighted",
     "name": "KasmVNC",
     "schema_version": 1,
     "source_repo": "https://github.com/kasmtech/KasmVNC",
@@ -1732,6 +1805,7 @@
     "deployment_model": "container",
     "id": "linuxserver-chromium",
     "kind": "software",
+    "listing_status": "research",
     "name": "LinuxServer Chromium",
     "schema_version": 1,
     "source_repo": "https://github.com/linuxserver/docker-chromium",
@@ -1753,6 +1827,7 @@
     "deployment_model": "container",
     "id": "neko",
     "kind": "software",
+    "listing_status": "research",
     "name": "Neko",
     "schema_version": 1,
     "source_repo": "https://github.com/m1k1o/neko",
@@ -1773,6 +1848,7 @@
     "category": "ai-agents",
     "id": "openclaw",
     "kind": "software",
+    "listing_status": "highlighted",
     "name": "OpenClaw",
     "schema_version": 1,
     "source_repo": "https://github.com/openclaw/openclaw",
@@ -1795,6 +1871,7 @@
     "category": "ai-agents",
     "id": "openhands",
     "kind": "software",
+    "listing_status": "highlighted",
     "name": "OpenHands",
     "schema_version": 1,
     "source_repo": "https://github.com/OpenHands/OpenHands",
@@ -1817,6 +1894,7 @@
     "category": "ai-agents",
     "id": "paperclip",
     "kind": "software",
+    "listing_status": "highlighted",
     "name": "Paperclip",
     "schema_version": 1,
     "source_repo": "https://github.com/paperclipai/paperclip",
@@ -1836,11 +1914,12 @@
   },
   {
     "based_on": "ubuntu-devel",
-    "category": "desktop-linux",
+    "category": "linux-distributions",
     "desktop": "xfce-based",
     "distribution_family": "ubuntu",
     "id": "rhino-linux",
     "kind": "distribution",
+    "listing_status": "highlighted",
     "name": "Rhino Linux",
     "release_model": "rolling",
     "schema_version": 1,
@@ -1860,9 +1939,10 @@
     "website": "https://rhinolinux.org/"
   },
   {
-    "category": "monitoring",
+    "category": "terminal-monitoring",
     "id": "terminal-trove",
     "kind": "resource",
+    "listing_status": "research",
     "name": "Terminal Trove — top alternatives",
     "schema_version": 1,
     "summary": "Curated directory of terminal-based process and system monitoring alternatives.",
@@ -1880,10 +1960,11 @@
     "website": "https://terminaltrove.com/categories/top/"
   },
   {
-    "category": "atomic-os",
+    "category": "linux-distributions",
     "distribution_family": "fedora",
     "id": "universal-blue",
     "kind": "os-ecosystem",
+    "listing_status": "highlighted",
     "name": "Universal Blue",
     "schema_version": 1,
     "summary": "Fedora-based bootc/OCI image-building ecosystem, not a standalone Linux distribution.",
@@ -1902,9 +1983,10 @@
     "website": "https://universal-blue.org/"
   },
   {
-    "category": "boot-media",
+    "category": "installation-boot",
     "id": "ventoy",
     "kind": "software",
+    "listing_status": "highlighted",
     "name": "Ventoy",
     "schema_version": 1,
     "summary": "Bootable USB tool for using ISO and other image files.",
@@ -1925,6 +2007,7 @@
     "deployment_model": "native-or-managed",
     "id": "xpra",
     "kind": "software",
+    "listing_status": "highlighted",
     "name": "Xpra HTML5",
     "schema_version": 1,
     "source_repo": "https://github.com/Xpra-org/xpra-html5",

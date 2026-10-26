@@ -2,7 +2,8 @@ schema_version: 1
 id: "debian"
 name: "Debian"
 kind: "distribution"
-category: "server-linux"
+category: "linux-distributions"
+listing_status: "highlighted"
 summary: "Community-developed Linux distribution suitable for desktop and server use."
 website: "https://www.debian.org/"
 distribution_family: "debian"
@@ -13,6 +14,6 @@ tags:
   - "desktop"
 verification:
   checked_on: "2026-10-24"
-  level: "official-documentation"
   functional_tested: false
+  level: "official-documentation"
   source: "https://www.debian.org/"

@@ -1,9 +1,5 @@
-# Cockpit server management
+# Cockpit server administration
 
-[Cockpit](https://cockpit-project.org/) is a web administration console for Linux hosts. The [generated Cockpit catalog](../../generated/cockpit-plugins.md) contains 65 original research entries, with a source link, stated package name (when listed), group, and notes for each.
+Browse the [function-based Cockpit integration directory](../../integrations/cockpit/README.md) for all 65 historical entries, now grouped by storage, networking, security, containers, monitoring, and other functions.
 
-The original [Cockpit research document](../../COCKPIT_PLUGINS.md) includes important installation caveats, ten Debian-oriented choices, and references. It is preserved as a historical snapshot; new records should go under `data/extensions/cockpit/`.
-
-**Security:** Extensions may have privileged host access. Check the upstream project, last release, package source, dependency compatibility, and authentication before deploying. Treat `package_name` as a reported identifier, not proof of APT availability.
-
-**Debian:** Inspect package availability locally (for example with `apt-cache policy cockpit cockpit-files`). Prefer distro repositories/backports where appropriate and inspect third-party code before granting access.
+The [original dated study](../../archive/cockpit-research-2026-10-19.md) retains package caveats and Debian notes. The installation state of any extension is **not verified**. Privileged Cockpit modules should be reviewed for provenance, release compatibility, package dependencies and security before use.

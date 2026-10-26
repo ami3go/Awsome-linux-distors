@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/ami3go/Awsome-linux-distors/blob/main/schemas/project.schema.json",
-  "title": "Awesome Linux catalog record",
+  "title": "Awesome Linux Homelab catalog entry",
   "type": "object",
   "required": [
     "schema_version",
@@ -10,6 +10,7 @@
     "kind",
     "category",
     "summary",
+    "listing_status",
     "verification"
   ],
   "additionalProperties": false,
@@ -36,15 +37,23 @@
     },
     "category": {
       "enum": [
-        "server-linux",
-        "desktop-linux",
-        "atomic-os",
-        "boot-media",
-        "server-management",
+        "linux-distributions",
+        "installation-boot",
+        "system-administration",
+        "storage-backups",
+        "networking-security",
+        "containers-virtualization",
         "remote-access",
-        "monitoring",
-        "file-management",
-        "ai-agents"
+        "ai-agents",
+        "terminal-monitoring",
+        "further-resources"
+      ]
+    },
+    "listing_status": {
+      "enum": [
+        "highlighted",
+        "research",
+        "legacy"
       ]
     },
     "summary": {

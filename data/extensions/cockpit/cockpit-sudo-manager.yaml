@@ -2,7 +2,8 @@ schema_version: 1
 id: "cockpit-sudo-manager"
 name: "Sudo Manager"
 kind: "extension"
-category: "server-management"
+category: "networking-security"
+listing_status: "research"
 summary: "Sudo policies; SUSE-oriented"
 source_repo: "https://github.com/josephoaks/Cockpit-SUDO-Manager"
 ecosystem: "cockpit"
@@ -15,6 +16,6 @@ tags:
   - "cockpit-listed-third-party"
 verification:
   checked_on: "2026-10-19"
-  level: "research-snapshot"
   functional_tested: false
-  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+  level: "research-snapshot"
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"

@@ -2,7 +2,8 @@ schema_version: 1
 id: "cockpit-ros-2-diagnostics"
 name: "ROS 2 Diagnostics"
 kind: "extension"
-category: "server-management"
+category: "terminal-monitoring"
+listing_status: "research"
 summary: "ROS2 diagnostics"
 source_repo: "https://github.com/clearpathrobotics/cockpit-ros2-diagnostics"
 ecosystem: "cockpit"
@@ -15,6 +16,6 @@ tags:
   - "cockpit-listed-third-party"
 verification:
   checked_on: "2026-10-19"
-  level: "research-snapshot"
   functional_tested: false
-  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+  level: "research-snapshot"
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"

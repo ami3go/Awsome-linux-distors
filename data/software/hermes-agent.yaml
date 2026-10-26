@@ -3,6 +3,7 @@ id: "hermes-agent"
 name: "Hermes Agent"
 kind: "software"
 category: "ai-agents"
+listing_status: "highlighted"
 summary: "General-purpose AI agent by Nous Research with persistent memory, learned skills and tool use."
 website: "https://hermes-agent.nousresearch.com"
 source_repo: "https://github.com/NousResearch/hermes-agent"
@@ -13,6 +14,6 @@ tags:
   - "self-hosted"
 verification:
   checked_on: "2026-10-26"
-  level: "official-documentation"
   functional_tested: false
+  level: "official-documentation"
   source: "https://github.com/NousResearch/hermes-agent"

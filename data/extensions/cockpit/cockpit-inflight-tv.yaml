@@ -2,7 +2,8 @@ schema_version: 1
 id: "cockpit-inflight-tv"
 name: "InFlight TV"
 kind: "extension"
-category: "server-management"
+category: "further-resources"
+listing_status: "research"
 summary: "IPTV with optional ffmpeg streaming"
 source_repo: "https://github.com/ismetozalp/iftv"
 ecosystem: "cockpit"
@@ -15,6 +16,6 @@ tags:
   - "cockpit-listed-third-party"
 verification:
   checked_on: "2026-10-19"
-  level: "research-snapshot"
   functional_tested: false
-  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/COCKPIT_PLUGINS.md"
+  level: "research-snapshot"
+  source: "https://github.com/ami3go/Awsome-linux-distors/blob/main/archive/cockpit-research-2026-10-19.md"

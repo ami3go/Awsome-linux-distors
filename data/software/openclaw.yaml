@@ -3,6 +3,7 @@ id: "openclaw"
 name: "OpenClaw"
 kind: "software"
 category: "ai-agents"
+listing_status: "highlighted"
 summary: "Open-source personal AI assistant that connects messaging, applications and tools to automate tasks."
 website: "https://openclaw.ai"
 source_repo: "https://github.com/openclaw/openclaw"
@@ -13,6 +14,6 @@ tags:
   - "self-hosted"
 verification:
   checked_on: "2026-10-26"
-  level: "official-documentation"
   functional_tested: false
+  level: "official-documentation"
   source: "https://github.com/openclaw/openclaw"

@@ -1,48 +1,104 @@
-# Awesome Linux Catalog
+<!--lint disable awesome-github-->
+# Awesome Linux Homelab [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated, source-linked catalog of Linux distributions, OS image ecosystems, administration software, AI-agent platforms, remote-access tools, utilities and Cockpit components.
+A curated starting point for **Linux workstations, mini-PC servers, home labs and self-hosted automation**. Find distributions, utilities and server tools by what they do.
 
-> **Evidence policy:** A link is not evidence that software was installed, tested, maintained, secure, or available in Debian repositories. See [verification rules](docs/MAINTENANCE.md).
+Entries are organized by purpose. The complete research catalog also includes untested alternatives and historical projects; a **highlighted** entry is a starting point, not a security or performance endorsement.
 
-## Browse
+## Contents
 
-| Area | Catalog | Guide |
-| --- | --- | --- |
-| Distributions and atomic-image ecosystems | [Distribution/software index](generated/software-index.md) | [Distribution notes](docs/distributions/index.md) |
-| Linux tools and curated resource directories | [Software index](generated/software-index.md) | [Software notes](docs/software/index.md) |
-| AI agents and orchestration | [AI agent entries](generated/software-index.md) | [AI agent guide](docs/software/ai-agents.md) |
-| Cockpit server management | [65-entry Cockpit catalog](generated/cockpit-plugins.md) | [Cockpit guide](docs/server-management/cockpit.md) |
-| Remote browser and desktop tools | [Remote-access entries](generated/software-index.md) | [Remote browser projects and screenshots](docs/remote-access/browser-in-browser.md) |
-| Mini PC and headless deployments | [Software index](generated/software-index.md) | [Mini PC notes](docs/hardware/mini-pc.md) |
+- [Linux Distributions](#linux-distributions)
+- [Installation & Boot](#installation--boot)
+- [System Administration](#system-administration)
+- [Storage & Backups](#storage--backups)
+- [Networking & Security](#networking--security)
+- [Containers & Virtualization](#containers--virtualization)
+- [Remote Access](#remote-access)
+- [AI & Automation](#ai--automation)
+- [Terminal & Monitoring](#terminal--monitoring)
+- [Further Resources](#further-resources)
 
-## The data model
+## Linux Distributions
 
-- **`data/`** contains one YAML record per project, with a stable ID, category, URLs, and evidence.
-- **`schemas/project.schema.json`** defines the allowed fields and categories.
-- **`generated/`** contains reproducible [JSON](generated/catalog.json) and Markdown views.
-- **`scripts/`** validates records and builds generated catalogs.
-- **`COCKPIT_PLUGINS.md`** is retained unchanged as the original 19 October 2026 research snapshot. It is **not** the editable data source for future updates.
+- [Debian](https://www.debian.org) - Community-developed Linux distribution for desktop and server systems.
+- [Rhino Linux](https://rhinolinux.org) - Ubuntu-derived Linux distribution with a rolling-release model.
+- [Universal Blue](https://universal-blue.org) - Fedora-based image ecosystem for atomic operating systems.
 
-Cockpit's 65 research entries have individual records in [`data/extensions/cockpit/`](data/extensions/cockpit/). The original 10 Debian recommendations are guidance, **not** ten more independent plugins.
+[Browse distributions and OS image ecosystems](categories/linux-distributions.md).
 
-## Quick choices
+## Installation & Boot
 
-- [Debian](https://www.debian.org/) — general-purpose distribution for desktops and servers.
-- [Rhino Linux](https://rhinolinux.org/) — **Ubuntu-based**, rolling release. Not a direct Debian derivative.
-- [Universal Blue](https://universal-blue.org/) — a **Fedora-based image ecosystem**, not one standalone distro.
-- [Cockpit](https://cockpit-project.org/) — native Linux server web console.
-- [Ventoy](https://www.ventoy.net/en/index.html) — prepare bootable USB media with multiple images.
+- [Ventoy](https://www.ventoy.net/en/index.html) - Tool for booting installation images from a multi-image USB device.
 
-## Contributing and validation
+[Browse installation and boot tools](categories/installation-boot.md).
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) and [the schema](schemas/project.schema.json). Install Python dependencies and run:
+## System Administration
 
-```bash
-python -m pip install -r requirements-dev.txt
-python scripts/validate_catalog.py
-python scripts/build_indexes.py
-python scripts/build_indexes.py --check
-python -m unittest discover -s tests -v
-```
+- [Cockpit](https://github.com/cockpit-project/cockpit) - Browser-based administration console for Linux systems.
 
-GitHub Actions performs the validation and regression checks for pull requests. The catalogs are discovery resources, not an endorsement or guarantee of package availability.
+[Browse system administration tools](categories/system-administration.md) · [Explore all Cockpit components by function](integrations/cockpit/README.md).
+
+## Storage & Backups
+
+- [Cockpit Files](https://github.com/cockpit-project/cockpit-files) - Integrated browser-based file manager for Cockpit.
+
+[Browse storage, file sharing and backup tools](categories/storage-backups.md).
+
+## Networking & Security
+
+- [Cockpit Tailscaled](https://github.com/Nicolazroyale/cockpit-tailscaled) - Community Cockpit interface for managing Tailscale configuration.
+
+[Browse VPN, firewall, DNS and security utilities](categories/networking-security.md).
+
+## Containers & Virtualization
+
+- [Cockpit Podman](https://github.com/cockpit-project/cockpit-podman) - Container management interface for Podman.
+- [Cockpit Machines](https://github.com/cockpit-project/cockpit-machines) - Cockpit interface for KVM and libvirt virtual machines.
+
+[Browse containers and virtualization projects](categories/containers-virtualization.md).
+
+## Remote Access
+
+- [Xpra HTML5](https://github.com/Xpra-org/xpra-html5) - Browser client for forwarding remote Linux application windows.
+- [KasmVNC](https://github.com/kasmtech/KasmVNC) - Browser-accessible remote desktop and application access software.
+
+[Browse remote access options](categories/remote-access.md) · [Remote-browser research and screenshots](docs/remote-access/browser-in-browser.md).
+
+## AI & Automation
+
+### Personal AI agents
+
+- [OpenClaw](https://github.com/openclaw/openclaw) - Personal AI assistant with messaging and tool automation.
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - General-purpose agent with memory, skills and external tools.
+- [Agent Zero](https://github.com/agent0ai/agent-zero) - Autonomous agent framework with computer-use capabilities.
+
+### Coding agents
+
+- [OpenHands](https://github.com/OpenHands/OpenHands) - Software development agent and engineering automation platform.
+
+### Orchestration and collaboration
+
+- [Paperclip](https://github.com/paperclipai/paperclip) - Multi-agent work coordination with tasks and governance.
+- [Buzz](https://github.com/block/buzz) - Shared workspace for humans and AI agents.
+
+[Browse the AI and automation catalog](categories/ai-agents.md).
+
+## Terminal & Monitoring
+
+- [Cockpit Sensors](https://github.com/ocristopfer/cockpit-sensors) - Hardware-monitoring interface for lm-sensors readings.
+
+[Browse monitoring and diagnostics](categories/terminal-monitoring.md).
+
+## Further Resources
+
+- [Awesome Selfhosted](https://awesome-selfhosted.net/tags/file-transfer---web-based-file-managers.html) - Curated directory of self-hosted file-management projects.
+
+[Browse additional resources and related projects](categories/further-resources.md).
+
+## Contributing
+
+Read [the contribution guidelines](CONTRIBUTING.md) to propose a new project or update research evidence. The [catalog maintenance policy](docs/MAINTENANCE.md) explains how the machine-readable data and generated pages are maintained.
+
+## Footnotes
+
+The [original 65-entry Cockpit survey](archive/cockpit-research-2026-10-19.md) is retained as a dated research snapshot. Module and package listings are **not** installation or compatibility tests. All source records, including alternatives not highlighted here, are available in the [complete index](generated/software-index.md).
