@@ -1,8 +1,9 @@
+<!--lint disable awesome-github-->
 # Awesome Linux Homelab [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated starting point for **Linux workstations, mini-PC servers, home labs and self-hosted automation**. Find distributions, utilities and server tools by what they do.
 
-Entries are organized by purpose. The [complete research catalog](generated/software-index.md) includes untested alternatives and historical projects; a **highlighted** entry is a starting point, not a security or performance endorsement.
+Entries are organized by purpose. The complete research catalog also includes untested alternatives and historical projects; a **highlighted** entry is a starting point, not a security or performance endorsement.
 
 ## Contents
 
@@ -40,13 +41,12 @@ Entries are organized by purpose. The [complete research catalog](generated/soft
 ## Storage & Backups
 
 - [Cockpit Files](https://github.com/cockpit-project/cockpit-files) - Integrated browser-based file manager for Cockpit.
-- [Cockpit Storage](https://github.com/cockpit-project/cockpit) - Cockpit interface for partitions, encrypted storage and disks.
 
 [Browse storage, file sharing and backup tools](categories/storage-backups.md).
 
 ## Networking & Security
 
-- [Cockpit Networking](https://github.com/cockpit-project/cockpit) - Network configuration interface integrated with Cockpit.
+- [Cockpit Tailscaled](https://github.com/Nicolazroyale/cockpit-tailscaled) - Community Cockpit interface for managing Tailscale configuration.
 
 [Browse VPN, firewall, DNS and security utilities](categories/networking-security.md).
 
@@ -85,7 +85,7 @@ Entries are organized by purpose. The [complete research catalog](generated/soft
 
 ## Terminal & Monitoring
 
-- [Cockpit PCP Metrics](https://github.com/cockpit-project/cockpit) - Performance Co-Pilot metrics integration for Cockpit.
+- [Cockpit Sensors](https://github.com/ocristopfer/cockpit-sensors) - Hardware-monitoring interface for lm-sensors readings.
 
 [Browse monitoring and diagnostics](categories/terminal-monitoring.md).
 

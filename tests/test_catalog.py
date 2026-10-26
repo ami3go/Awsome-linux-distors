@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from catalog_common import load_records  # noqa: E402
-from build_indexes import render_outputs  # noqa: E402
+from build_indexes import render_outputs, entry  # noqa: E402
 
 
 class CatalogTests(unittest.TestCase):
@@ -63,7 +63,7 @@ class CatalogTests(unittest.TestCase):
         outputs = render_outputs()
         for record in self.items:
             page = outputs[f"categories/{record['category']}.md"]
-            self.assertEqual(1, page.count(f"]({record.get('source_repo') or record.get('website')}) - {record['summary']}"),
+            self.assertEqual(1, page.count(entry(record)),
                              f"Missing entry from category page: {record['id']}")
         self.assertEqual(65, outputs["integrations/cockpit/README.md"].count("; package:"))
 

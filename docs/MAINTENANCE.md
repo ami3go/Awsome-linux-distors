@@ -29,3 +29,7 @@ python -m unittest discover -s tests -v
 ## Known limitations
 
 The license remains GPL-3.0 and is **not** the preferred CC license for inclusion in sindresorhus/awesome. The current catalog also contains untested third-party extensions; the highlights must not be mistaken for independently assessed installation recommendations.
+
+## GitHub metadata caveat
+
+The repository description and `awesome` / `awesome-list` topics need to be set in GitHub repository settings by an administrator. The current GitHub integration can edit files and pull requests but does not expose repository metadata mutations. The README has a narrowly scoped `awesome-github` lint exception until that metadata is set. All other Awesome lint rules remain active.
